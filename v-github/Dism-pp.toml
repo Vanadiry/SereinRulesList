@@ -1,0 +1,14 @@
+[info]
+app_id = "Dism-pp"
+name = "Dism++"
+description = "Dism增强"
+official_website = "https://github.com/Chuyu-Team/Dism-Multi-language/releases"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "Chuyu-Team"
+repo = "Dism-Multi-language"
+
+[config.windows]
+d_position = "Dism"

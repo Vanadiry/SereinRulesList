@@ -1,0 +1,14 @@
+[info]
+app_id = "DriverStoreExplorer"
+name = "DriverStoreExplorer"
+description = "过期驱动检查工具"
+official_website = "https://github.com/lostindark/DriverStoreExplorer/releases/"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "lostindark"
+repo = "DriverStoreExplorer"
+
+[config.windows]
+d_position = "DriverStoreExplorer"

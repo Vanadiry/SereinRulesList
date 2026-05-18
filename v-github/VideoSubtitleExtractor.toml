@@ -1,0 +1,17 @@
+[info]
+app_id = "VideoSubtitleExtractor"
+name = "Video Subtitle Extractor"
+description = "硬字幕提取器"
+official_website = "https://github.com/YaoFANGUK/video-subtitle-extractor/releases"
+platforms = ["windows", "macos"]
+
+[config]
+type = "github"
+owner = "YaoFANGUK"
+repo = "video-subtitle-extractor"
+
+[config.windows]
+d_position = "windows"
+
+[config.macos]
+d_position = "macos"

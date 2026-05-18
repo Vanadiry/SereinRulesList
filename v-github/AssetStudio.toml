@@ -1,0 +1,15 @@
+[info]
+app_id = "AssetStudio"
+name = "AssetStudio"
+description = "Unity解包工具"
+status = ["Archived"]
+official_website = "https://github.com/Perfare/AssetStudio/releases/"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "Perfare"
+repo = "AssetStudio"
+
+[config.windows]
+d_position = "net6"

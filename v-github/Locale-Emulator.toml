@@ -1,0 +1,15 @@
+[info]
+app_id = "Locale-Emulator"
+name = "Locale-Emulator"
+description = "转区"
+status = ["Archived"]
+official_website = "https://github.com/xupefei/Locale-Emulator/releases/"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "xupefei"
+repo = "Locale-Emulator"
+
+[config.windows]
+d_position = "Locale.*Emulator"

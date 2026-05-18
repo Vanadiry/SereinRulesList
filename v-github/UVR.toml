@@ -1,0 +1,17 @@
+[info]
+app_id = "UVR"
+name = "UVR"
+description = "分离歌曲音轨"
+official_website = "https://github.com/Anjok07/ultimatevocalremovergui/releases"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "Anjok07"
+repo = "ultimatevocalremovergui"
+
+[config.windows]
+d_position = "UVR.*setup.exe"
+
+[config.macos]
+d_position = "Ultimate_Vocal_Remover_v[0-9_]+_MacOS_arm64\\.dmg$"

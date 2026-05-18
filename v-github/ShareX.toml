@@ -1,0 +1,14 @@
+[info]
+app_id = "ShareX"
+name = "ShareX"
+description = "截图工具"
+official_website = "https://github.com/ShareX/ShareX/releases"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "ShareX"
+repo = "ShareX"
+
+[config.windows]
+d_position = "setup"

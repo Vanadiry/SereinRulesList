@@ -1,0 +1,14 @@
+[info]
+app_id = "waifu2x-caffe"
+name = "waifu2x-caffe"
+description = "图像超分辨率"
+official_website = "https://github.com/lltcggie/waifu2x-caffe/releases"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "lltcggie"
+repo = "waifu2x-caffe"
+
+[config.windows]
+d_position = "waifu2x-caffe"

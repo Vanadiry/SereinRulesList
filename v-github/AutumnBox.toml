@@ -1,0 +1,14 @@
+[info]
+app_id = "AutumnBox"
+name = "AutumnBox"
+status = ["Archived"]
+official_website = "https://github.com/zsh2401/AutumnBox/releases"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "zsh2401"
+repo = "AutumnBox"
+
+[config.windows]
+d_position = "AutumnBox"

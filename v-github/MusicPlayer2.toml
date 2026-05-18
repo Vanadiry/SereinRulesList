@@ -1,0 +1,14 @@
+[info]
+app_id = "MusicPlayer2"
+name = "MusicPlayer2"
+description = "能显示字幕的音乐播放器"
+official_website = "https://github.com/zhongyang219/MusicPlayer2/releases/"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "zhongyang219"
+repo = "MusicPlayer2"
+
+[config.windows]
+d_position = "x64"

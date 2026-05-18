@@ -1,0 +1,14 @@
+[info]
+app_id = "MultiPar"
+name = "MultiPar"
+description = "校验和计算工具"
+official_website = "https://github.com/Yutaka-Sawada/MultiPar/releases"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "Yutaka-Sawada"
+repo = "MultiPar"
+
+[config.windows]
+d_position = "setup"

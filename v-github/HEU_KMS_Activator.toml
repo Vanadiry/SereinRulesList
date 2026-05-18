@@ -1,0 +1,14 @@
+[info]
+app_id = "HEU_KMS_Activator"
+name = "HEU_KMS_Activator"
+description = "Windows相关激活工具"
+official_website = "https://github.com/zbezj/HEU_KMS_Activator/releases/"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "zbezj"
+repo = "HEU_KMS_Activator"
+
+[config.windows]
+d_position = "rar"
