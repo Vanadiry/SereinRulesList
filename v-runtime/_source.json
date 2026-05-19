@@ -1,0 +1,13 @@
+{
+    "source_id": "v-runtime",
+    "type": "rules",
+    "name": "v-运行时",
+    "description": "",
+    "baseurl": "",
+    "files": [
+        "dotnet6DRT.toml",
+        "dotnet8DRT.toml",
+        "dotnet9DRT.toml",
+        "dotnet10DRT.toml"
+    ]
+}
