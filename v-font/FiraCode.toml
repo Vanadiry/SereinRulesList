@@ -1,0 +1,14 @@
+[info]
+app_id = "FiraCode"
+name = "FiraCode"
+description = "英文字体"
+official_website = "https://github.com/tonsky/FiraCode/releases"
+platforms = ["font"]
+
+[config]
+type = "github"
+owner = "tonsky"
+repo = "FiraCode"
+
+[config.font]
+d_position = "zip"

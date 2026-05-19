@@ -1,0 +1,14 @@
+{
+    "source_id": "v-font",
+    "type": "rules",
+    "name": "v-字体",
+    "description": "",
+    "baseurl": "",
+    "files": [
+        "FiraCode.toml",
+        "JetBrainsMono.toml",
+        "LxgwWenKai.toml",
+        "source-han-sans.toml",
+        "unifont.toml"
+    ]
+}

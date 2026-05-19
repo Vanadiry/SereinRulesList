@@ -1,0 +1,15 @@
+[info]
+app_id = "unifont"
+name = "unifont"
+description = "字体"
+official_website = "https://www.unifoundry.com/unifont/index.html"
+platforms = ["font"]
+
+[config]
+type = "regex"
+url = "https://www.unifoundry.com/unifont/index.html"
+baseurl = "https://www.unifoundry.com"
+
+[config.font]
+v_position = "unifont-([\\d.]+)\\.otf"
+d_position = "<a href=\"(/pub/unifont[^\"]+\\.otf)\""

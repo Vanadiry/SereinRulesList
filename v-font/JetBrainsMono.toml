@@ -1,0 +1,14 @@
+[info]
+app_id = "JetBrainsMono"
+name = "JetBrainsMono"
+description = "汉字字体"
+official_website = "https://github.com/JetBrains/JetBrainsMono/releases"
+platforms = ["font"]
+
+[config]
+type = "github"
+owner = "JetBrains"
+repo = "JetBrainsMono"
+
+[config.font]
+d_position = "zip"

@@ -1,0 +1,14 @@
+[info]
+app_id = "LxgwWenKai"
+name = "霞鹜文楷"
+description = "中文字体"
+official_website = "https://github.com/lxgw/LxgwWenKai/releases"
+platforms = ["font"]
+
+[config]
+type = "github"
+owner = "lxgw"
+repo = "LxgwWenKai"
+
+[config.font]
+d_position = "zip"

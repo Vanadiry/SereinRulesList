@@ -1,0 +1,14 @@
+[info]
+app_id = "source-han-sans"
+name = "思源黑体"
+description = "汉字字体"
+official_website = "https://github.com/adobe-fonts/source-han-sans/releases"
+platforms = ["font"]
+
+[config]
+type = "github"
+owner = "adobe-fonts"
+repo = "source-han-sans"
+
+[config.font]
+d_position = "02"
