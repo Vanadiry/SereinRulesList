@@ -1,0 +1,12 @@
+{
+    "source_id": "SereinRulesList_Official",
+    "name": "Serein 官方规则源",
+    "description": "Serein 官方规则源",
+    "type": "list",
+    "baseurl": "",
+    "files": [
+        "v-github/_source.json",
+        "v-font/_source.json",
+        "v-runtime/_source.json"
+    ]
+}
