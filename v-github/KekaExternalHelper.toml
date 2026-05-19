@@ -1,0 +1,14 @@
+[info]
+app_id = "KekaExternalHelper"
+name = "KekaExternalHelper"
+description = "Keka Helper"
+official_website = "https://www.keka.io/en/"
+platforms = ["macos"]
+
+[config]
+type = "html_selector"
+
+[config.macos]
+url = "https://www.keka.io/en/"
+d_position = { selector = "#helper_download", attr = "href" }
+v_position = { selector = "#helper_download", regex = "v(\\d+\\.\\d+\\.\\d+)" }

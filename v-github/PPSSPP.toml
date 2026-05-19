@@ -1,0 +1,29 @@
+[info]
+app_id = "PPSSPP"
+name = "PPSSPP"
+description = "PSP模拟器"
+official_website = "https://github.com/hrydgard/ppsspp/releases"
+platforms = ["macos", "windows", "linux", "ios", "android"]
+
+[config]
+type = "github"
+owner = "hrydgard"
+repo = "ppsspp"
+
+[config.macos]
+d_position = "macOS"
+
+[config.windows]
+d_position = "Windows-x64"
+
+[config.linux]
+d_position = "x86_64.AppImage$"
+
+[config.ios]
+d_position = "ipa"
+
+[config.android]
+type = "html_selector"
+url = "https://www.ppsspp.org/download/"
+d_position = { selector = "a[href*='ppsspp.apk']", attr = "href" }
+v_position = { selector = ".container p", regex = "new in (\\d+\\.\\d+\\.\\d+)" }

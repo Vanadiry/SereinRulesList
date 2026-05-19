@@ -1,0 +1,20 @@
+[info]
+app_id = "LosslessCut"
+name = "LosslessCut"
+description = "无损裁切视频和音频"
+official_website = "https://github.com/mifi/lossless-cut/releases"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "mifi"
+repo = "lossless-cut"
+
+[config.macos]
+d_position = "mac-arm64.dmg"
+
+[config.windows]
+d_position = "win-x64.7z"
+
+[config.linux]
+d_position = "AppImage"

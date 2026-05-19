@@ -1,0 +1,14 @@
+[info]
+app_id = "BetterDisplay"
+name = "BetterDisplay"
+description = "macOS屏幕管理工具"
+official_website = "https://github.com/waydabber/BetterDisplay/releases"
+platforms = ["macos"]
+
+[config]
+type = "github"
+owner = "waydabber"
+repo = "BetterDisplay"
+
+[config.macos]
+d_position = "dmg"

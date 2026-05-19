@@ -1,0 +1,14 @@
+[info]
+app_id = "Pearcleaner"
+name = "Pearcleaner"
+description = "macOS垃圾清理工具"
+official_website = "https://github.com/alienator88/Pearcleaner/releases"
+platforms = ["macos"]
+
+[config]
+type = "github"
+owner = "alienator88"
+repo = "Pearcleaner"
+
+[config.macos]
+d_position = "arm"

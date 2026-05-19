@@ -1,0 +1,20 @@
+[info]
+app_id = "LogisimEvolution"
+name = "Logisim Evolution"
+description = "数字逻辑电路模拟工具"
+official_website = "https://github.com/logisim-evolution/logisim-evolution/releases"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "logisim-evolution"
+repo = "logisim-evolution"
+
+[config.macos]
+d_position = "aarch64.dmg"
+
+[config.windows]
+d_position = "amd64.msi"
+
+[config.linux]
+d_position = "rpm|deb|jar"

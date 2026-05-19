@@ -1,0 +1,21 @@
+[info]
+app_id = "Ryubing"
+name = "Ryubing"
+description = "Switch游戏模拟器"
+official_website = "https://git.ryujinx.app/projects/Ryubing/releases"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "json"
+url = "https://git.ryujinx.app/api/v1/repos/projects/Ryubing/releases"
+ua = "curl/8.0.0"
+v_position = [0, "tag_name"]
+
+[config.macos]
+d_position = [0, "assets", "name~macos", "browser_download_url"]
+
+[config.windows]
+d_position = [0, "assets", "name~win", "browser_download_url"]
+
+[config.linux]
+d_position = [0, "assets", "name~linux.*x64", "browser_download_url"]

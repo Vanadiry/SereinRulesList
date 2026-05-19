@@ -1,0 +1,14 @@
+[info]
+app_id = "Mos"
+name = "Mos"
+description = "macOS鼠标增强工具"
+official_website = "https://github.com/Caldis/Mos/releases/"
+platforms = ["macos"]
+
+[config]
+type = "github"
+owner = "Caldis"
+repo = "Mos"
+
+[config.macos]
+d_position = "Mos"

@@ -1,0 +1,20 @@
+[info]
+app_id = "ClashVergeRev"
+name = "Clash Verge Rev"
+description = "网络代理工具"
+official_website = "https://github.com/clash-verge-rev/clash-verge-rev/releases"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "clash-verge-rev"
+repo = "clash-verge-rev"
+
+[config.macos]
+d_position = "aarch64.dmg"
+
+[config.windows]
+d_position = "x64-setup.exe"
+
+[config.linux]
+d_position = "x86_64.*rpm$|amd64.*deb$"

@@ -1,0 +1,20 @@
+[info]
+app_id = "HMCL"
+name = "HMCL"
+description = "Minecraft启动器"
+official_website = "https://github.com/HMCL-dev/HMCL/releases"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "HMCL-dev"
+repo = "HMCL"
+
+[config.macos]
+d_position = "jar"
+
+[config.windows]
+d_position = "exe"
+
+[config.linux]
+d_position = "jar"

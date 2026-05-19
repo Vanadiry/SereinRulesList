@@ -1,0 +1,20 @@
+[info]
+app_id = "drawio"
+name = "draw.io"
+description = "流程图绘制工具"
+official_website = "https://github.com/jgraph/drawio-desktop/releases"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "jgraph"
+repo = "drawio-desktop"
+
+[config.macos]
+d_position = "arm64-.*dmg$"
+
+[config.windows]
+d_position = "windows-installer.exe$"
+
+[config.linux]
+d_position = "x86_64.*rpm$|amd64.*deb$|x86_64.*AppImage$"

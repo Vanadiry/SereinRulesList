@@ -1,0 +1,20 @@
+[info]
+app_id = "HandBrake"
+name = "HandBrake"
+description = "FFmpeg GUI"
+official_website = "https://github.com/HandBrake/HandBrake/releases"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "HandBrake"
+repo = "HandBrake"
+
+[config.macos]
+d_position = "HandBrake-.*dmg"
+
+[config.windows]
+d_position = "x86_64-Win_GUI.exe$"
+
+[config.linux]
+d_position = "flatpak$"

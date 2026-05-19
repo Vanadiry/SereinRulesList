@@ -1,0 +1,20 @@
+[info]
+app_id = "RyubingFK"
+name = "Ryujinx 固件和密钥"
+description = "Switch固件和密钥"
+official_website = "https://prodkeys.net/ryujinx-prod-keys-update/, https://prodkeys.net/ryujinx-firmware-v3/"
+platforms = ["key", "firmware"]
+
+[config]
+
+[config.key]
+type = "html_selector"
+url = "https://prodkeys.net/ryujinx-prod-keys-update/"
+v_position = { selector = "tbody tr:first-child td:first-child" }
+d_position = { selector = "tbody tr:first-child a", attr = "href" }
+
+[config.firmware]
+type = "json"
+url = "https://api.github.com/repos/THZoria/NX_Firmware/releases"
+v_position = [0, "tag_name"]
+d_position = [0, "assets", "name~zip", "browser_download_url"]

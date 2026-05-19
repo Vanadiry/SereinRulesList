@@ -1,0 +1,23 @@
+[info]
+app_id = "LocalSend"
+name = "LocalSend"
+description = "局域网文件传输工具"
+official_website = "https://github.com/localsend/localsend/releases/"
+platforms = ["macos", "windows", "linux", "android"]
+
+[config]
+type = "github"
+owner = "localsend"
+repo = "localsend"
+
+[config.macos]
+d_position = "dmg"
+
+[config.windows]
+d_position = "exe"
+
+[config.linux]
+d_position = "linux.*x86-64"
+
+[config.android]
+d_position = "arm64v8"

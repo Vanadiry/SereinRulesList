@@ -1,0 +1,20 @@
+[info]
+app_id = "czkawka"
+name = "czkawka"
+description = "文件去重工具"
+official_website = "https://github.com/qarmin/czkawka/releases/"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "qarmin"
+repo = "czkawka"
+
+[config.macos]
+d_position = "mac_krokiet_skia_vulkan_heif_avif_arm64"
+
+[config.windows]
+d_position = "windows_krokiet_on_windows_skia_opengl.exe"
+
+[config.linux]
+d_position = "linux_krokiet_skia_opengl_x86_64"

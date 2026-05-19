@@ -1,0 +1,14 @@
+[info]
+app_id = "FineTune"
+name = "FineTune"
+description = "macOS音量合成器"
+official_website = "https://github.com/ronitsingh10/FineTune/releases"
+platforms = ["macos"]
+
+[config]
+type = "github"
+owner = "ronitsingh10"
+repo = "FineTune"
+
+[config.macos]
+d_position = "dmg"

@@ -1,0 +1,14 @@
+[info]
+app_id = "Keka"
+name = "Keka"
+description = "macOS压缩解压工具"
+official_website = "https://github.com/aonez/Keka/releases/"
+platforms = ["macos"]
+
+[config]
+type = "github"
+owner = "aonez"
+repo = "Keka"
+
+[config.macos]
+d_position = "dmg"

@@ -1,0 +1,14 @@
+[info]
+app_id = "AdobeDownloader"
+name = "Adobe Downloader"
+description = "Adobe软件离线正版包下载器"
+official_website = "https://github.com/X1a0He/Adobe-Downloader/releases"
+platforms = ["macos"]
+
+[config]
+type = "github"
+owner = "X1a0He"
+repo = "Adobe-Downloader"
+
+[config.macos]
+d_position = "dmg"

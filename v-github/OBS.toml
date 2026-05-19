@@ -1,0 +1,20 @@
+[info]
+app_id = "OBS"
+name = "OBS Studio"
+description = "录屏和推流工具"
+official_website = "https://github.com/obsproject/obs-studio/releases"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "obsproject"
+repo = "obs-studio"
+
+[config.macos]
+d_position = "macOS-Apple.dmg"
+
+[config.windows]
+d_position = "Windows.*x64.*Installer"
+
+[config.linux]
+d_position = "x86_64.deb"

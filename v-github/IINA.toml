@@ -1,0 +1,14 @@
+[info]
+app_id = "IINA"
+name = "IINA"
+description = "macOS视频播放器"
+official_website = "https://github.com/iina/iina/releases/"
+platforms = ["macos"]
+
+[config]
+type = "github"
+owner = "iina"
+repo = "iina"
+
+[config.macos]
+d_position = "dmg"

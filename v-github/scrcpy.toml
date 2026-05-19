@@ -1,0 +1,20 @@
+[info]
+app_id = "scrcpy"
+name = "scrcpy"
+description = "安卓投屏"
+official_website = "https://github.com/Genymobile/scrcpy/releases"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "Genymobile"
+repo = "scrcpy"
+
+[config.macos]
+d_position = "macos-aarch64"
+
+[config.windows]
+d_position = "win64"
+
+[config.linux]
+d_position = "linux"

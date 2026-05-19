@@ -1,0 +1,14 @@
+[info]
+app_id = "Petrichor"
+name = "Petrichor"
+description = "macOS音乐播放器"
+official_website = "https://github.com/kushalpandya/Petrichor/releases"
+platforms = ["macos"]
+
+[config]
+type = "github"
+owner = "kushalpandya"
+repo = "Petrichor"
+
+[config.macos]
+d_position = "dmg"

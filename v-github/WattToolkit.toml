@@ -1,0 +1,20 @@
+[info]
+app_id = "WattToolkit"
+name = "Watt Toolkit"
+description = ""
+official_website = "https://github.com/BeyondDimension/SteamTools/releases"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "BeyondDimension"
+repo = "SteamTools"
+
+[config.macos]
+d_position = "dmg"
+
+[config.windows]
+d_position = "exe"
+
+[config.linux]
+d_position = "linux"

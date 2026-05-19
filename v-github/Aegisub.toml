@@ -1,0 +1,17 @@
+[info]
+app_id = "Aegisub"
+name = "Aegisub"
+description = "字母编辑器"
+official_website = "https://github.com/TypesettingTools/Aegisub/releases"
+platforms = ["macos", "windows"]
+
+[config]
+type = "github"
+owner = "TypesettingTools"
+repo = "Aegisub"
+
+[config.macos]
+d_position = "dmg"
+
+[config.windows]
+d_position = "exe"

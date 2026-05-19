@@ -1,0 +1,14 @@
+[info]
+app_id = "DISMTools"
+name = "DISMTools"
+description = "Dism增强工具"
+official_website = "https://github.com/CodingWonders/DISMTools/releases/"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "CodingWonders"
+repo = "DISMTools"
+
+[config.windows]
+d_position = "exe"

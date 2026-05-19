@@ -1,0 +1,23 @@
+[info]
+app_id = "Gyroflow"
+name = "Gyroflow"
+description = "视频后期陀螺仪增稳"
+official_website = "https://github.com/gyroflow/gyroflow/releases/"
+platforms = ["macos", "windows", "linux", "android"]
+
+[config]
+type = "github"
+owner = "gyroflow"
+repo = "gyroflow"
+
+[config.macos]
+d_position = "dmg"
+
+[config.windows]
+d_position = "windows64"
+
+[config.linux]
+d_position = "AppImage"
+
+[config.android]
+d_position = "apk"

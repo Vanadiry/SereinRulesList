@@ -1,0 +1,17 @@
+[info]
+app_id = "NotePadmm"
+name = "NotePad--"
+description = "增强编辑器"
+official_website = "https://github.com/cxasm/notepad--/releases"
+platforms = ["macos", "windows"]
+
+[config]
+type = "github"
+owner = "cxasm"
+repo = "notepad--"
+
+[config.macos]
+d_position = "mac_arm64"
+
+[config.windows]
+d_position = "win.*portable"
