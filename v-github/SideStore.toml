@@ -1,0 +1,14 @@
+[info]
+app_id = "SideStore"
+name = "SideStore"
+description = "iOS自签名侧载工具"
+official_website = "https://github.com/SideStore/SideStore/releases"
+platforms = ["ios"]
+
+[config]
+type = "github"
+owner = "SideStore"
+repo = "SideStore"
+
+[config.ios]
+d_position = "ipa"

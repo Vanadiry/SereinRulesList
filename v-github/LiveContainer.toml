@@ -1,0 +1,15 @@
+[info]
+app_id = "LiveContainer"
+name = "LiveContainer"
+description = "iOS侧载容器"
+official_website = "https://github.com/LiveContainer/LiveContainer/releases"
+platforms = ["ios"]
+
+[config]
+type = "github"
+owner = "LiveContainer"
+repo = "LiveContainer"
+
+[config.ios]
+d_position = "ipa"
+

@@ -2,6 +2,7 @@
 app_id = "AutumnBox"
 name = "AutumnBox"
 status = ["Archived"]
+description = "ADB工具"
 official_website = "https://github.com/zsh2401/AutumnBox/releases"
 platforms = ["windows"]
 

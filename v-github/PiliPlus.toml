@@ -1,0 +1,26 @@
+[info]
+app_id = "PiliPlus"
+name = "PiliPlus"
+description = "第三方哔哩哔哩"
+official_website = "https://github.com/bggRGjQaUbCoE/PiliPlus/releases"
+platforms = ["macos", "windows", "linux", "ios", "android"]
+
+[config]
+type = "github"
+owner = "bggRGjQaUbCoE"
+repo = "PiliPlus"
+
+[config.macos]
+d_position = "dmg"
+
+[config.windows]
+d_position = "windows"
+
+[config.linux]
+d_position = "AppImage"
+
+[config.ios]
+d_position = "ipa"
+
+[config.android]
+d_position = "arm64.*apk"

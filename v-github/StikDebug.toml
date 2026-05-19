@@ -1,0 +1,14 @@
+[info]
+app_id = "StikDebug"
+name = "StikDebug"
+description = "iOS开启JIT工具"
+official_website = "https://github.com/StephenDev0/StikDebug/releases"
+platforms = ["ios"]
+
+[config]
+type = "github"
+owner = "StephenDev0"
+repo = "StikDebug"
+
+[config.ios]
+d_position = "ipa"

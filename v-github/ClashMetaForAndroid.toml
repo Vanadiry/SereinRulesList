@@ -1,0 +1,14 @@
+[info]
+app_id = "ClashMetaForAndroid"
+name = "ClashMetaForAndroid"
+description = "代理工具"
+official_website = "https://github.com/MetaCubeX/ClashMetaForAndroid/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "MetaCubeX"
+repo = "ClashMetaForAndroid"
+
+[config.android]
+d_position = "auniversal"

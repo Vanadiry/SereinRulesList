@@ -1,0 +1,14 @@
+[info]
+app_id = "fcitx5-android"
+name = "fcitx5-android"
+description = "输入法"
+official_website = "https://github.com/fcitx5-android/fcitx5-android/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "fcitx5-android"
+repo = "fcitx5-android"
+
+[config.android]
+d_position = "android-.*arm64-v8a|rime.*arm64-v8a|anthy.*arm64-v8a"

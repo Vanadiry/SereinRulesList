@@ -1,0 +1,23 @@
+[info]
+app_id = "ProxyPin"
+name = "ProxyPin"
+description = "抓包工具"
+official_website = "https://github.com/wanghongenpin/proxypin/releases"
+platforms = ["macos", "windows", "linux", "android"]
+
+[config]
+type = "github"
+owner = "wanghongenpin"
+repo = "proxypin"
+
+[config.macos]
+d_position = "dmg"
+
+[config.windows]
+d_position = "exe"
+
+[config.linux]
+d_position = "deb"
+
+[config.android]
+d_position = "apk"

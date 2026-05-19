@@ -1,0 +1,14 @@
+[info]
+app_id = "ApplistDetector"
+name = "ApplistDetector"
+description = "安卓Root检查"
+official_website = "https://github.com/Dr-TSNG/ApplistDetector/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "Dr-TSNG"
+repo = "ApplistDetector"
+
+[config.android]
+d_position = "apk"

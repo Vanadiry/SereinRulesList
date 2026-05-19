@@ -1,0 +1,27 @@
+[info]
+app_id = "pikapika"
+name = "pikapika"
+description = "神秘看图软件"
+status = ["Archived"]
+official_website = "https://github.com/ComicSparks/pikapika/releases"
+platforms = ["macos", "windows", "linux", "ios", "android"]
+
+[config]
+type = "github"
+owner = "ComicSparks"
+repo = "pikapika"
+
+[config.macos]
+d_position = "dmg"
+
+[config.windows]
+d_position = "windows"
+
+[config.linux]
+d_position = "AppImage"
+
+[config.ios]
+d_position = "ipa"
+
+[config.android]
+d_position = "arm64.*apk"

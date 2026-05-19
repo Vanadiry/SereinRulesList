@@ -1,0 +1,14 @@
+[info]
+app_id = "KeePassDX"
+name = "KeePassDX"
+description = "密码本工具"
+official_website = "https://github.com/Kunzisoft/KeePassDX/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "Kunzisoft"
+repo = "KeePassDX"
+
+[config.android]
+d_position = "libre"

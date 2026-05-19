@@ -1,0 +1,14 @@
+[info]
+app_id = "Ehviewer"
+name = "Ehviewer"
+description = "神秘看图软件"
+official_website = "https://github.com/xiaojieonly/Ehviewer_CN_SXJ/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "xiaojieonly"
+repo = "Ehviewer_CN_SXJ"
+
+[config.android]
+d_position = "apk"
