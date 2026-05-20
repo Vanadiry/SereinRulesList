@@ -1,0 +1,16 @@
+[info]
+app_id = "CDM"
+name = "CrystalDiskMark"
+description = "硬盘测试工具"
+official_website = "https://crystalmark.info/en/"
+platforms = ["windows"]
+
+[config]
+type = "regex"
+url = "https://crystalmark.info/en/"
+ua = "curl/8.0.0"
+baseurl = "https://crystalmark.info"
+
+[config.windows]
+v_position = "CrystalDiskMark (\\d+\\.\\d+\\.\\d+)"
+d_position = "href=\"(/redirect\\.php\\?product=CrystalDiskMarkInstaller)\""

@@ -1,0 +1,16 @@
+[info]
+app_id = "FormatFactory"
+name = "FormatFactory 格式工厂"
+description = "转码工具"
+official_website = "https://www.pcgeshi.com/"
+platforms = ["windows"]
+
+[config]
+type = "html_selector"
+url = "https://www.pcgeshi.com/"
+ua = "curl/8.0.0"
+baseurl = "https://crystalmark.info"
+
+[config.windows]
+v_position = { selector = ".info span", regex = "版本：(.+)" }
+d_position = { selector = ".btn a", attr = "href" }

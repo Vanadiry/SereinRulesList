@@ -1,0 +1,23 @@
+[info]
+app_id = "RemoteDesktopManager"
+name = "Remote Desktop Manager"
+description = "远程连接管理工具"
+official_website = "https://devolutions.net/remote-desktop-manager/download/"
+platforms = ["windows", "macos", "linux"]
+
+[config]
+type = "regex"
+url = "https://devolutions.net/remote-desktop-manager/download/"
+
+[config.windows]
+d_position = "href=\"(https://cdn\\.devolutions.*download.*win-x64.*exe)\""
+v_position = "href=\"https://cdn\\.devolutions.*download.*win-x64\\.(.*)\\.exe\""
+
+[config.macos]
+d_position = "href=\"(https://cdn\\.devolutions.*download.*dmg)\""
+v_position = "href=\"https://cdn\\.devolutions.*download.*Mac\\.(.*)\\.dmg\""
+
+[config.linux]
+d_position = "href=\"(https://cdn\\.devolutions.*download.*amd64\\.deb)\""
+v_position = "href=\"https://cdn\\.devolutions.*download.*RDM/(.*)/RemoteDesktopManager.*deb\""
+

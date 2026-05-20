@@ -5,8 +5,10 @@
     "type": "list",
     "baseurl": "",
     "files": [
-        "v-github/_source.json",
+        "v-common/_source.json",
         "v-font/_source.json",
+        "v-game/_source.json",
+        "v-github/_source.json",
         "v-runtime/_source.json"
     ]
 }

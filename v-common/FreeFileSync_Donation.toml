@@ -1,0 +1,23 @@
+[info]
+app_id = "FreeFileSync_Donation"
+name = "FreeFileSync [Donation Edition]"
+description = "FreeFileSync捐赠版（需要拥有捐赠Token）"
+official_website = "https://freefilesync.org/"
+platforms = ["windows", "macos", "linux"]
+
+[config]
+type = "regex"
+# url = "https://freefilesync.org/thank-you.php?tx=（在此处填入你的捐赠Token）"
+v_position = "<td>([0-9]+(?:[.][0-9]+)*)</td>"
+
+[config.windows]
+d_type = "html_selector"
+d_position = { selector = "a[href*='Donation_Edition'][href*='_Windows']", attr = "href" }
+
+[config.macos]
+d_type = "html_selector"
+d_position = { selector = "a[href*='Donation_Edition'][href*='_macOS']", attr = "href" }
+
+[config.linux]
+d_type = "html_selector"
+d_position = { selector = "a[href*='Donation_Edition'][href*='_Linux']", attr = "href" }

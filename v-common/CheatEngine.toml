@@ -1,0 +1,15 @@
+[info]
+app_id = "CheatEngine"
+name = "Cheat Engine"
+description = "内存修改工具"
+official_website = "https://cheatengine.org/downloads.php"
+platforms = ["windows"]
+
+[config]
+type = "html_selector"
+url = "https://cheatengine.org/downloads.php"
+ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+v_position = { selector = ".download_link", regex = "Cheat Engine (\\d+\\.\\d+)" }
+
+[config.windows]
+d_position = { selector = ".download_link", attr = "href" }

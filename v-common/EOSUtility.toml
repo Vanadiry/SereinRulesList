@@ -1,0 +1,20 @@
+[info]
+app_id = "EOSUtility"
+name = "EOS Utility"
+description = "佳能相机管理软件"
+official_website = "https://app.ssw.imaging-saas.canon/app/zh/eu.html"
+platforms = ["macos", "windows"]
+
+[config]
+type = "html_selector"
+url = "https://app.ssw.imaging-saas.canon/app/zh/eu.html"
+
+[config.macos]
+ua = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+v_position = { selector = "#eu-ver-text-1" }
+d_position = { selector = "#eu-gdls-mac-text a", attr = "href" }
+
+[config.windows]
+ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+v_position = { selector = "#eu-ver-text-1" }
+d_position = { selector = "#eu-gdls-win-text a", attr = "href" }

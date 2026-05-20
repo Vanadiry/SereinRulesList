@@ -1,0 +1,16 @@
+[info]
+app_id = "ExactFile"
+name = "ExactFile"
+description = "图形化校验和工具"
+official_website = "https://www.exactfile.com/downloads/"
+platforms = ["windows"]
+
+[config]
+type = "regex"
+url = "https://www.exactfile.com/downloads/"
+v_position = "Version:\\s*([0-9][0-9.]*)"
+
+[config.windows]
+d_url = "https://www.exactfile.com/downloads/"
+d_type = "html_selector"
+d_position = { selector = "a[href*='ExactFile-Setup.exe']", attr = "href" }

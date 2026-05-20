@@ -1,0 +1,13 @@
+[info]
+app_id = "OfficeToolPlus"
+name = "Office Tool Plus"
+description = "Office部署工具"
+official_website = "https://otp.landian.vip/zh-cn/download.html"
+platforms = ["windows"]
+
+[config]
+type = "regex"
+url = "https://otp.landian.vip/zh-cn/download.html"
+v_position = "最新版本：(.*) "
+d_type = "direct"
+d_url = "https://otp.landian.vip/redirect/download.php?type=runtime&arch=x64"

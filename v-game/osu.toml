@@ -1,0 +1,26 @@
+[info]
+app_id = "osu"
+name = "osu"
+description = "戳泡泡游戏"
+official_website = "https://github.com/ppy/osu/releases/"
+platforms = ["macos", "windows", "linux", "ios", "android"]
+
+[config]
+type = "github"
+owner = "ppy"
+repo = "osu"
+
+[config.macos]
+d_position = "Apple.Silicon"
+
+[config.windows]
+d_position = "exe"
+
+[config.linux]
+d_position = "AppImage"
+
+[config.ios]
+d_position = "ipa"
+
+[config.android]
+d_position = "apk"

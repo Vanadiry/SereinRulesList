@@ -1,0 +1,15 @@
+[info]
+app_id = "SpaceSniffer"
+name = "SpaceSniffer"
+description = "磁盘空间分析工具"
+official_website = "https://www.uderzo.it/main_products/space_sniffer/download_alt.html"
+platforms = ["windows"]
+
+[config]
+type = "html_selector"
+url = "https://www.uderzo.it/main_products/space_sniffer/download_alt.html"
+baseurl = "https://www.uderzo.it/main_products/space_sniffer/"
+v_position = { selector = "table.narrow tbody tr:first-child td:first-child a", regex = "v(.*) x64" }
+
+[config.windows]
+d_position = { selector = "table.narrow tbody tr:first-child td:first-child a", attr = "href" }

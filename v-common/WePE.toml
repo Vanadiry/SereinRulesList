@@ -1,0 +1,13 @@
+[info]
+app_id = "WePE"
+name = "微 PE 工具箱"
+description = "基于Windows PE的维护工具集"
+official_website = "https://www.wepe.com.cn/download.html"
+platforms = ["windows"]
+
+[config.windows]
+v_type = "regex"
+v_url = "https://www.wepe.com.cn/download.html"
+v_position = "微PE工具箱V(2\\.\\d+)</span>"
+d_type = "direct"
+d_url = "https://mirrors.sdu.edu.cn/wepe/WePE_64_V{version}.exe"

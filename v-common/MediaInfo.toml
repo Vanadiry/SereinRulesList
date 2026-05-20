@@ -1,0 +1,20 @@
+[info]
+app_id = "MediaInfo"
+name = "MediaInfo"
+description = "多媒体文件信息查看工具"
+official_website = "https://mediaarea.net/en/MediaInfo/Download"
+platforms = ["windows", "macos"]
+
+[config]
+type = "regex"
+
+[config.windows]
+url = "https://mediaarea.net/en/MediaInfo/Download/Windows"
+d_position = "href=\"(.*download.*mediainfo.*MediaInfo_GUI.*Windows.exe)\">v"
+v_position = "download.*mediainfo.*MediaInfo_GUI_(.*)_Windows.exe"
+
+
+[config.macos]
+url = "https://mediaarea.net/en/MediaInfo/Download/Mac_OS"
+d_position = "href=\"(.*download.*mediainfo.*MediaInfo_CLI.*dmg)\">v"
+v_position = "download.*mediainfo/(.*)/MediaInfo_CLI"

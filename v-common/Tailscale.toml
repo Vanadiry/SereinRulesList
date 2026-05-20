@@ -1,0 +1,23 @@
+[info]
+app_id = "Tailscale"
+name = "Tailscale"
+description = "异地组网工具"
+official_website = "https://pkgs.tailscale.com/stable/"
+platforms = ["macos", "windows", "android"]
+
+[config]
+type = "html_selector"
+url = "https://pkgs.tailscale.com/stable/"
+baseurl = "https://pkgs.tailscale.com"
+
+[config.macos]
+v_position = { selector = "#macos a[href*='pkg']", attr = "href", regex = "Tailscale-(.*)-macos"}
+d_position = { selector = "#macos a[href*='pkg']", attr = "href" }
+
+[config.windows]
+v_position = { selector = "#windows a[href*='full']", attr = "href", regex = "full-(.*)\\.exe"}
+d_position = { selector = "#windows a[href*='full']", attr = "href" }
+
+[config.android]
+v_position = { selector = "#android a[href*='universal']", attr = "href", regex = "universal-(.*)\\.apk"}
+d_position = { selector = "#android a[href*='universal']", attr = "href" }

@@ -1,0 +1,14 @@
+[info]
+app_id = "Steamcommunity302"
+name = "Steamcommunity 302"
+description = "Steam 社区反代工具"
+official_website = "https://www.dogfight360.com/blog/18682/"
+platforms = ["windows"]
+
+[config]
+type = "html_selector"
+url = "https://www.dogfight360.com/blog/18682/"
+v_position = { selector = "h1.entry-title", regex = "Ver\\.(.*)" }
+
+[config.windows]
+d_position = { selector = "a[href*='steamcommunity_302_AMD64']", attr = "href" }

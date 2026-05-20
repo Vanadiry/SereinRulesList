@@ -1,0 +1,14 @@
+[info]
+app_id = "DiskGenius"
+name = "DiskGenius"
+description = "功能强大的数据恢复及分区管理软件"
+official_website = "https://www.diskgenius.cn/download.php"
+platforms = ["windows"]
+
+[config]
+type = "html_selector"
+url = "https://www.diskgenius.cn/download.php"
+v_position = { selector = ".logmenu .cur", regex = "V([0-9]+\\.[0-9]+\\.[0-9]+)" }
+
+[config.windows]
+d_position = { selector = "a[href*='DG_64']", attr = "href" }

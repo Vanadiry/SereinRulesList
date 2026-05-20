@@ -1,0 +1,14 @@
+[info]
+app_id = "TBTool"
+name = "图吧工具箱"
+description = "图吧工具箱"
+official_website = "https://www.tbtool.cn/download/index.html"
+platforms = ["windows"]
+
+[config]
+type = "html_selector"
+url = "https://www.tbtool.cn/download/index.html"
+v_position = { selector = ".download-meta strong", regex = "最新版本：(.*)" }
+
+[config.windows]
+d_position = { selector = "a.btn-lg[href*='.exe']", attr = "href" }

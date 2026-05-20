@@ -1,0 +1,16 @@
+[info]
+app_id = "CDI"
+name = "CrystalDiskInfo"
+description = "硬盘检测工具"
+official_website = "https://crystalmark.info/en/"
+platforms = ["windows"]
+
+[config]
+type = "regex"
+url = "https://crystalmark.info/en/download/"
+ua = "curl/8.0.0"
+baseurl = "https://crystalmark.info"
+
+[config.windows]
+v_position = "CrystalDiskInfo (\\d+\\.\\d+\\.\\d+)"
+d_position = "href=\"(/redirect\\.php\\?product=CrystalDiskInfoInstaller)\""

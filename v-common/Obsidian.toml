@@ -1,0 +1,23 @@
+[info]
+app_id = "Obsidian"
+name = "Obsidian"
+description = "双链笔记工具"
+official_website = "https://obsidian.md/download"
+platforms = ["macos", "windows", "linux", "android"]
+
+[config]
+type = "github"
+owner = "obsidianmd"
+repo = "obsidian-releases"
+
+[config.macos]
+d_position = "dmg"
+
+[config.windows]
+d_position = "exe"
+
+[config.linux]
+d_position = "Obsidian-[\\d.]+\\.AppImage$|amd64.deb"
+
+[config.android]
+d_position = "apk"

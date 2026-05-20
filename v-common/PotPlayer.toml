@@ -1,0 +1,15 @@
+[info]
+app_id = "PotPlayer"
+name = "PotPlayer"
+description = "多媒体播放器"
+official_website = "https://potplayer.tv/"
+platforms = ["windows"]
+
+[config]
+v_url = "https://t1.kakaocdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html"
+v_type = "regex"
+v_position = "\\[([0-9]{6})\\]"
+
+d_url = "https://potplayer.tv/"
+d_type = "html_selector"
+d_position = { selector = ".link_download64", attr = "href" }

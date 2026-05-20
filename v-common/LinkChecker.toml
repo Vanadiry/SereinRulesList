@@ -1,0 +1,17 @@
+[info]
+app_id = "LinkChecker"
+name = "LinkChecker"
+description = "死链检查工具"
+official_website = "https://wummel.github.io/linkchecker/"
+platforms = ["windows", "linux"]
+
+[config]
+type = "html_selector"
+url = "https://wummel.github.io/linkchecker/"
+v_position = { selector = "a[href*='LinkChecker-']", regex = "LinkChecker-(\\d+(?:\\.\\d+)*)" }
+
+[config.windows]
+d_position = { selector = "a[href$='.exe']", attr = "href" }
+
+[config.linux]
+d_position = { selector = "a[title*='Debian']", attr = "href" }

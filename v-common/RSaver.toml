@@ -1,0 +1,15 @@
+[info]
+app_id = "RSaver"
+name = "R.saver"
+description = "数据恢复软件"
+official_website = "https://rlab.ru/tools/rsaver.html"
+platforms = ["windows"]
+
+[config]
+type = "html_selector"
+url = "https://rlab.ru/tools/rsaver.html"
+v_type = "direct"
+v_url = "Latest"
+
+[config.windows]
+d_position = { selector = "a.download", attr = "href" }

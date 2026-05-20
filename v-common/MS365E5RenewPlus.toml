@@ -1,0 +1,13 @@
+[info]
+app_id = "MS365E5RenewPlus"
+name = "MS365 E5 Renew Plus"
+description = "微软 E5 订阅续签工具"
+official_website = "https://e5renew.com/#download"
+platforms = ["windows"]
+
+[config]
+type = "html_selector"
+url = "https://e5renew.com/#download"
+d_position = { selector = "table tbody tr:first-child td:nth-child(4) a", attr = "href" }
+v_type = "direct"
+v_url = "Latest"

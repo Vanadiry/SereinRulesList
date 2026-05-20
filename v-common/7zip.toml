@@ -1,0 +1,14 @@
+[info]
+app_id = "7zip"
+name = "7zip"
+description = "压缩解压工具"
+official_website = "https://7-zip.org/"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "ip7z"
+repo = "7zip"
+
+[config.windows]
+d_position = "x64.exe"

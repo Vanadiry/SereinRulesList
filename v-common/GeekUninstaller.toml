@@ -1,0 +1,15 @@
+[info]
+app_id = "GeekUninstaller"
+name = "Geek Uninstaller"
+description = "软件卸载工具"
+official_website = "https://geekuninstaller.com/download"
+platforms = ["windows"]
+
+[config]
+type = "regex"
+url = "https://geekuninstaller.com/download"
+v_position = "<b>(\\d+\\.\\d+\\.\\d+\\.\\d+)</b>"
+baseurl = "https://geekuninstaller.com"
+
+[config.windows]
+d_position = "<a href=\"(/geek\\.zip)\""

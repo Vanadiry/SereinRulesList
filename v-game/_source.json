@@ -1,0 +1,10 @@
+{
+    "source_id": "v-game",
+    "type": "rules",
+    "name": "v-游戏",
+    "description": "",
+    "baseurl": "",
+    "files": [
+        "osu.toml"
+    ]
+}

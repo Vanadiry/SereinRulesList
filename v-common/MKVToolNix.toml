@@ -1,0 +1,19 @@
+[info]
+app_id = "MKVToolNix"
+name = "MKVToolNix"
+description = "MKV工具集"
+official_website = "https://mkvtoolnix.download/downloads.html"
+platforms = ["macos", "windows"]
+
+[config]
+type = "regex"
+url = "https://mkvtoolnix.download/downloads.html"
+v_position = "href=\"windows/releases/(.*)/mkvtoolnix-64-bit.*exe"
+
+[config.macos]
+d_type = "direct"
+d_url = "https://mkvtoolnix.download/macos/releases/{version}/"
+
+[config.windows]
+baseurl = "https://mkvtoolnix.download/"
+d_position = "href=\"(windows/releases.*mkvtoolnix-64-bit.*exe)\">mkvtoolnix"
