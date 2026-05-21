@@ -1,0 +1,21 @@
+[info]
+app_id = "BitComet"
+name = "BitComet 比特彗星"
+description = "BT下载工具"
+official_website = "https://www.bitcomet.com"
+platforms = ["macos", "windows"]
+
+[config]
+type = "html_selector"
+
+[config.macos]
+url = "https://www.bitcomet.com/tw/downloading?platform=mac"
+ua = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36"
+v_position = { selector = ".bc_downloading a", attr = "href", regex = "BitComet_(.*)\\.dmg" }
+d_position = { selector = ".bc_downloading a", attr = "href" }
+
+[config.windows]
+url = "https://www.bitcomet.com/cn/archive"
+ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.7727.56 Safari/537.36"
+v_position = { selector = ".bc_table_version a", attr = "href", regex = "BitComet_(.*)_setup" }
+d_position = { selector = ".bc_table_version a", attr = "href" }

@@ -1,0 +1,19 @@
+[info]
+app_id = "VLC"
+name = "VLC media player"
+description = "媒体播放器"
+official_website = "https://www.videolan.org/vlc/"
+platforms = ["macos", "windows"]
+
+[config]
+type = "html_selector"
+v_position = { selector = "#downloadVersion"}
+
+[config.macos]
+url = "https://www.videolan.org/vlc/download-macosx.html"
+d_position = { selector = "a[href$='arm64.dmg']", attr = "href" }
+
+[config.windows]
+url = "https://www.videolan.org/vlc/download-windows.html"
+d_position = { selector = "a[href$='win64.exe']", attr = "href" }
+

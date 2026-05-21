@@ -1,0 +1,19 @@
+[info]
+app_id = "NeatDownloadManager"
+name = "Neat Download Manager"
+description = "下载管理器"
+official_website = "https://one.one.one.one/"
+platforms = ["macos", "windows"]
+
+[config]
+type = "html_selector"
+url = "https://www.neatdownloadmanager.com/index.php/en/"
+baseurl = "https://www.neatdownloadmanager.com/"
+
+[config.macos]
+d_position = { selector = "a[href*='dmg']", attr = "href" }
+v_position = { selector = "#dima_2_2 .p1", regex = "ver (.*)\\)" }
+
+[config.windows]
+d_position = { selector = "a[href*='exe']", attr = "href" }
+v_position = { selector = "#dima_2_3 .p1", regex = "ver (.*)\\)" }

@@ -1,0 +1,22 @@
+[info]
+app_id = "Firefox"
+name = "Firefox"
+description = "浏览器"
+official_website = "https://www.firefox.com/zh-CN/download/all/"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "html_selector"
+ua = "curl/8.0.0"
+d_position = { selector = ".c-step-download a", attr = "href" }
+v_type = "regex"
+v_position = "data-latest-firefox=\"(.*)\""
+
+[config.macos]
+url = "https://www.firefox.com/zh-CN/download/all/desktop-release/osx/zh-CN/"
+
+[config.windows]
+url = "https://www.firefox.com/zh-CN/download/all/desktop-release/win64/zh-CN/"
+
+[config.linux]
+url = "https://www.firefox.com/zh-CN/download/all/desktop-release/linux64/zh-CN/"

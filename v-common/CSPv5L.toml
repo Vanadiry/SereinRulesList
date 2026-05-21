@@ -1,0 +1,18 @@
+[info]
+app_id = "CSPv5L"
+name = "CLIP STUDIO PAINT v5 一次付清版"
+description = "绘画软件"
+official_website = "https://www.clipstudio.net/tc/dl/v5/"
+platforms = ["macos", "windows"]
+
+[config]
+type = "html_selector"
+url = "https://www.clipstudio.net/tc/dl/v5/"
+v_position = { selector = "#download p", regex = "版本 (.*)" }
+baseurl = "https://www.clipstudio.net/"
+
+[config.macos]
+d_position = { selector = '#download a[href*="csp-install-mac"]', attr = "href" }
+
+[config.windows]
+d_position = { selector = '#download a[href*="csp-install-win"]', attr = "href" }

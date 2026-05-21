@@ -1,0 +1,21 @@
+[info]
+app_id = "Thunderbird"
+name = "Thunderbird"
+description = "邮件客户端"
+official_website = "https://www.thunderbird.net/zh-CN/thunderbird/all/"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "regex"
+d_type = "html_selector"
+url = "https://www.thunderbird.net/zh-CN/thunderbird/all/"
+v_position = "defaultLatestVersion: '([\\d.]+)'"
+
+[config.macos]
+d_position = { selector = "a[data-download-version='osx'][data-download-locale='zh-CN']", attr = "href" }
+
+[config.windows]
+d_position = { selector = "a[data-download-version='win64'][data-download-locale='zh-CN']", attr = "href" }
+
+[config.linux]
+d_position = { selector = "a[data-download-version='linux64'][data-download-locale='zh-CN']", attr = "href" }
