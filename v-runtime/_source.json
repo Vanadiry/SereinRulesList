@@ -2,7 +2,7 @@
     "source_id": "v-runtime",
     "type": "rules",
     "name": "v-运行时",
-    "version": "1",
+    "version": 2,
     "description": "",
     "baseurl": "",
     "files": [
