@@ -11,4 +11,4 @@ owner = "MetaCubeX"
 repo = "ClashMetaForAndroid"
 
 [config.android]
-d_position = "auniversal"
+d_position = "universal"

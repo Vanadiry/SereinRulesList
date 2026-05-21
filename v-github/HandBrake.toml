@@ -11,7 +11,7 @@ owner = "HandBrake"
 repo = "HandBrake"
 
 [config.macos]
-d_position = "HandBrake-.*dmg"
+d_position = "HandBrake-.*dmg$"
 
 [config.windows]
 d_position = "x86_64-Win_GUI.exe$"

@@ -9,7 +9,7 @@ platforms = ["macos", "windows"]
 type = "html_selector"
 url = "https://www.clipstudio.net/tc/dl/v5/"
 v_position = { selector = "#download p", regex = "版本 (.*)" }
-baseurl = "https://www.clipstudio.net/"
+baseurl = "https://www.clipstudio.net"
 
 [config.macos]
 d_position = { selector = '#download a[href*="csp-install-mac"]', attr = "href" }

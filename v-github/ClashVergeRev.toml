@@ -14,7 +14,7 @@ repo = "clash-verge-rev"
 d_position = "aarch64.dmg"
 
 [config.windows]
-d_position = "x64-setup.exe"
+d_position = "x64-setup.exe$"
 
 [config.linux]
 d_position = "x86_64.*rpm$|amd64.*deb$"

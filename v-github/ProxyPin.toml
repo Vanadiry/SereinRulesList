@@ -20,4 +20,4 @@ d_position = "exe"
 d_position = "deb"
 
 [config.android]
-d_position = "apk"
+d_position = "android.apk"
