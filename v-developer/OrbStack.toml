@@ -1,0 +1,15 @@
+[info]
+app_id = "OrbStack"
+name = "OrbStack"
+description = "轻量Docker客户端"
+official_website = "https://orbstack.dev/download"
+platforms = ["macos"]
+
+[config]
+type = "html_selector"
+url = "https://orbstack.dev/download"
+baseurl = "https://orbstack.dev/"
+v_type = "direct"
+v_url = "Latest"
+d_position = { selector = "a[href*='arm']", attr = "href" }
+ua = "curl/8.0.0"

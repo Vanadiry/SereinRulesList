@@ -1,0 +1,20 @@
+[info]
+app_id = "ArduinoIDE"
+name = "Arduino IDE"
+description = "单片机集成开发环境"
+official_website = "https://github.com/arduino/arduino-ide/releases"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "arduino"
+repo = "arduino-ide"
+
+[config.macos]
+d_position = "arm64.dmg"
+
+[config.windows]
+d_position = "exe"
+
+[config.linux]
+d_position = "AppImage"

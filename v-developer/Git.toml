@@ -1,0 +1,14 @@
+[info]
+app_id = "Git"
+name = "Git"
+description = "版本控制工具"
+official_website = "https://git-scm.com/install/windows"
+platforms = ["windows"]
+
+[config]
+type = "html_selector"
+url = "https://git-scm.com/install/windows"
+v_position = { selector = ".install-content a[href*='64-bit.exe']", attr = "href", regex = "download/v(.*).windows"}
+
+[config.windows]
+d_position = { selector = ".install-content a[href*='64-bit.exe']", attr = "href" }

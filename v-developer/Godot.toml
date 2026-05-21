@@ -1,0 +1,20 @@
+[info]
+app_id = "Godot"
+name = "Godot"
+description = "游戏引擎"
+official_website = "https://github.com/godotengine/godot/releases"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "godotengine"
+repo = "godot"
+
+[config.macos]
+d_position = "stable_macos.universal"
+
+[config.windows]
+d_position = "win64.exe"
+
+[config.linux]
+d_position = "linux.x86_64"

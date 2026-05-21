@@ -1,0 +1,12 @@
+[info]
+app_id = "RenPy"
+name = "Ren'Py"
+description = "视觉小说引擎"
+official_website = "https://www.renpy.org/latest.html"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "html_selector"
+url = "https://www.renpy.org/latest.html"
+v_position = { selector = "a[href*='sdk.zip']", attr = "href", regex = "dl/(.*)/renpy"}
+d_position = { selector = "a[href*='sdk.zip']", attr = "href" }

@@ -1,0 +1,18 @@
+[info]
+app_id = "Cyberduck"
+name = "Cyberduck"
+description = "文件传输工具"
+official_website = "https://cyberduck.io/download/"
+platforms = ["macos", "windows"]
+
+[config]
+type = "html_selector"
+url = "https://cyberduck.io/download/"
+
+[config.macos]
+d_position = { selector = "a[href*='zip']", attr = "href" }
+v_position = { selector = "a[href*='zip']", attr = "href" , regex = "Cyberduck-(.*).zip"}
+
+[config.windows]
+d_position = { selector = "a[href*='exe']", attr = "href" }
+v_position = { selector = "a[href*='exe']", attr = "href", regex = "Installer-(.*).exe" }

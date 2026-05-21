@@ -1,0 +1,20 @@
+[info]
+app_id = "iLoader"
+name = "iLoader"
+description = "iOS自签名工具"
+official_website = "https://github.com/nab138/iloader/releases"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "nab138"
+repo = "iloader"
+
+[config.macos]
+d_position = "darwin-universal.dmg$"
+
+[config.windows]
+d_position = "windows-x64.exe$"
+
+[config.linux]
+d_position = "linux-amd64.AppImage$"

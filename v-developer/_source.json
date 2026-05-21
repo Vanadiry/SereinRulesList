@@ -6,6 +6,25 @@
     "description": "",
     "baseurl": "",
     "files": [
-        ""
+        "ArduinoIDE.toml",
+        "Blender.toml",
+        "Bruno.toml",
+        "Chromium.toml",
+        "Cyberduck.toml",
+        "DevToys.toml",
+        "ExHyperV.toml",
+        "Git.toml",
+        "Godot.toml",
+        "HexFiend.toml",
+        "iDevicePair.toml",
+        "iLoader.toml",
+        "MicrosoftTerminal.toml",
+        "OrbStack.toml",
+        "PowerShell.toml",
+        "Python.toml",
+        "RenPy.toml",
+        "SourceGit.toml",
+        "VSCodium.toml",
+        "Wireshark.toml"
     ]
 }

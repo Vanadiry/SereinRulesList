@@ -1,0 +1,14 @@
+[info]
+app_id = "DevToys"
+name = "DevToys"
+description = "Windows增强工具"
+official_website = "https://github.com/DevToys-app/DevToys/releases"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "DevToys-app"
+repo = "DevToys"
+
+[config.windows]
+d_position = "msixbundle"

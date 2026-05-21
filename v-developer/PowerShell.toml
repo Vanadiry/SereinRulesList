@@ -1,0 +1,14 @@
+[info]
+app_id = "PowerShell"
+name = "PowerShell"
+description = "微软PowerShell"
+official_website = "https://github.com/PowerShell/PowerShell/releases"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "PowerShell"
+repo = "PowerShell"
+
+[config.windows]
+d_position = "x64.msi$"

@@ -1,0 +1,14 @@
+[info]
+app_id = "ExHyperV"
+name = "ExHyperV"
+description = "Hyper-V 管理器"
+official_website = "https://github.com/Justsenger/ExHyperV/releases"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "Justsenger"
+repo = "ExHyperV"
+
+[config.windows]
+d_position = "x64"

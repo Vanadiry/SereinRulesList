@@ -1,0 +1,14 @@
+[info]
+app_id = "HexFiend"
+name = "HexFiend"
+description = "16进制编辑器"
+official_website = "https://github.com/HexFiend/HexFiend/releases"
+platforms = ["macos"]
+
+[config]
+type = "github"
+owner = "HexFiend"
+repo = "HexFiend"
+
+[config.macos]
+d_position = "dmg"

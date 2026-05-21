@@ -1,0 +1,14 @@
+[info]
+app_id = "MicrosoftTerminal"
+name = "Microsoft Terminal"
+description = "微软终端"
+official_website = "https://github.com/microsoft/terminal/releases"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "microsoft"
+repo = "terminal"
+
+[config.windows]
+d_position = "msixbundle$"

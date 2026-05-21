@@ -1,0 +1,20 @@
+[info]
+app_id = "iDevicePair"
+name = "iDevice Pair"
+description = "iOS自签配对文件生成工具"
+official_website = "https://github.com/jkcoxson/idevice_pair/releases"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "jkcoxson"
+repo = "idevice_pair"
+
+[config.macos]
+d_position = "dmg"
+
+[config.windows]
+d_position = "exe"
+
+[config.linux]
+d_position = "x86_64.AppImage$"

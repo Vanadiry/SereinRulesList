@@ -1,0 +1,22 @@
+[info]
+app_id = "Wireshark"
+name = "Wireshark"
+description = "抓包工具"
+official_website = "https://www.wireshark.org/download.html"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "html_selector"
+url = "https://www.wireshark.org/download.html"
+v_type = "regex"
+v_position = "Stable Release: (.*)<svg xm"
+ua = "curl/8.0.0"
+
+[config.macos]
+d_position = { selector = "a[href*='osx']", attr = "href" }
+
+[config.windows]
+d_position = { selector = "a[href*='x64.exe']", attr = "href" }
+
+[config.linux]
+d_position = { selector = "a[href*='ubuntu/stable']", attr = "href" }

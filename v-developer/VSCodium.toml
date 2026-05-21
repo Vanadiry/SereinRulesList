@@ -1,0 +1,20 @@
+[info]
+app_id = "VSCodium"
+name = "VSCodium"
+description = "无追踪的 VS Code"
+official_website = "https://github.com/VSCodium/vscodium/releases/"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "VSCodium"
+repo = "vscodium"
+
+[config.macos]
+d_position = "arm64.*dmg$"
+
+[config.windows]
+d_position = "VSCodiumUserSetup-x64.*exe$"
+
+[config.linux]
+d_position = "AppImage$"

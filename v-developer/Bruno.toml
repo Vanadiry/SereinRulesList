@@ -1,0 +1,20 @@
+[info]
+app_id = "Bruno"
+name = "Bruno"
+description = "发包工具"
+official_website = "https://github.com/usebruno/bruno/releases/"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "usebruno"
+repo = "bruno"
+
+[config.macos]
+d_position = "arm64.*dmg$"
+
+[config.windows]
+d_position = "x64.*exe$"
+
+[config.linux]
+d_position = "x86_64.*AppImage$"
