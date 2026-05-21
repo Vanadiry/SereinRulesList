@@ -2,6 +2,7 @@
     "source_id": "v-font",
     "type": "rules",
     "name": "v-字体",
+    "version": "1",
     "description": "",
     "baseurl": "",
     "files": [

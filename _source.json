@@ -6,6 +6,7 @@
     "baseurl": "",
     "files": [
         "v-common/_source.json",
+        "v-developer/_source.json",
         "v-font/_source.json",
         "v-game/_source.json",
         "v-github/_source.json",

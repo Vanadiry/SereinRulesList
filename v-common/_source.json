@@ -2,6 +2,7 @@
     "source_id": "v-common",
     "type": "rules",
     "name": "v-常规",
+    "version": "1",
     "description": "",
     "baseurl": "",
     "files": [

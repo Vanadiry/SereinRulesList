@@ -1,11 +1,11 @@
 {
-    "source_id": "v-game",
+    "source_id": "v-developer",
     "type": "rules",
-    "name": "v-游戏",
+    "name": "v-开发",
     "version": "1",
     "description": "",
     "baseurl": "",
     "files": [
-        "osu.toml"
+        ""
     ]
 }
