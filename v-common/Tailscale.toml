@@ -8,7 +8,7 @@ platforms = ["macos", "windows", "android"]
 [config]
 type = "html_selector"
 url = "https://pkgs.tailscale.com/stable/"
-baseurl = "https://pkgs.tailscale.com/"
+baseurl = "https://pkgs.tailscale.com/stable/"
 
 [config.macos]
 v_position = { selector = "#macos a[href*='pkg']", attr = "href", regex = "Tailscale-(.*)-macos"}

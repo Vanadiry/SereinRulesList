@@ -13,4 +13,5 @@ baseurl = "https://crystalmark.info"
 
 [config.windows]
 v_position = "CrystalDiskMark (\\d+\\.\\d+\\.\\d+)"
-d_position = "href=\"(/redirect\\.php\\?product=CrystalDiskMarkInstaller)\""
+d_type = "html_selector"
+d_position = { selector = "a[title='CrystalDiskMark']", attr = "href" }
