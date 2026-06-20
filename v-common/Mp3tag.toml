@@ -9,7 +9,7 @@ platforms = ["windows"]
 type = "html_selector"
 url = "https://www.mp3tag.de/download.html"
 baseurl = "https://www.mp3tag.de/"
-v_position = { selector = ".sections h2", regex = "Mp3tag v([0-9]+\\.[0-9]+\\.[0-9]+)" }
+v_position = { selector = ".sections h2", regex = "Mp3tag v(.*)" }
 
 [config.windows]
 d_position = { selector = "a[title*='x64']", attr = "href" }
