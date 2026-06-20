@@ -1,0 +1,21 @@
+[info]
+app_id = "GIMP"
+name = "GIMP"
+description = "开源图像编辑软件"
+official_website = "https://www.gimp.org/downloads/"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "html_selector"
+url = "https://www.gimp.org/downloads/"
+v_type = "regex"
+v_position = "current stable release of GIMP is <b>([^<]+)</b>"
+
+[config.macos]
+d_position = { selector = "#mac-arm64-buttons .download-button a", attr = "href" }
+
+[config.windows]
+d_position = { selector = "#win .download-button a", attr = "href" }
+
+[config.linux]
+d_position = { selector = "#linux-x86_64-buttons .download-button a", attr = "href" }

@@ -1,7 +1,7 @@
 [info]
 app_id = "Aegisub"
 name = "Aegisub"
-description = "字母编辑器"
+description = "字幕编辑器"
 official_website = "https://github.com/TypesettingTools/Aegisub/releases"
 platforms = ["macos", "windows"]
 

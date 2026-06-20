@@ -1,0 +1,21 @@
+[info]
+app_id = "Krita"
+name = "Krita"
+description = "自由开源的数字绘画软件"
+official_website = "https://krita.org/zh-cn/download/"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "html_selector"
+url = "https://krita.org/zh-cn/download/"
+v_type = "regex"
+v_position = "下载 Krita ([^<]+)</h1>"
+
+[config.macos]
+d_position = { selector = "#macOS-download", attr = "href" }
+
+[config.windows]
+d_position = { selector = "#windows-download a", attr = "href" }
+
+[config.linux]
+d_position = { selector = "#linux-download a", attr = "href" }

@@ -2,7 +2,7 @@
     "source_id": "v-github",
     "type": "rules",
     "name": "v-GitHub",
-    "version": 5,
+    "version": 6,
     "description": "",
     "baseurl": "",
     "files": [
@@ -60,6 +60,7 @@
         "scrcpy.toml",
         "ShareX.toml",
         "SideStore.toml",
+        "Sigil.toml",
         "StikDebug.toml",
         "UVR.toml",
         "VideoSubtitleExtractor.toml",

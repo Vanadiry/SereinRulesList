@@ -1,0 +1,20 @@
+[info]
+app_id = "Sigil"
+name = "Sigil"
+description = "ePub电子书编辑器"
+official_website = "https://github.com/Sigil-Ebook/Sigil/releases"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "Sigil-Ebook"
+repo = "Sigil"
+
+[config.macos]
+d_position = "Mac-arm64"
+
+[config.windows]
+d_position = "exe"
+
+[config.linux]
+d_position = "AppImage$"

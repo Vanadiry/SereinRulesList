@@ -2,7 +2,7 @@
     "source_id": "v-opensource",
     "type": "rules",
     "name": "v-其他开源",
-    "version": 1,
+    "version": 2,
     "description": "",
     "baseurl": "",
     "files": [
@@ -10,7 +10,9 @@
         "Firefox.toml",
         "FreeFileSync.toml",
         "FreeFileSync_Donation.toml",
+        "GIMP.toml",
         "HTTrack.toml",
+        "Krita.toml",
         "MediaInfo.toml",
         "MKVToolNix.toml",
         "Thunderbird.toml",
