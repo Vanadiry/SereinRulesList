@@ -1,0 +1,14 @@
+[info]
+app_id = "gMKVExtractGUI"
+name = "gMKVExtractGUI"
+description = "提取MKV轨道工具"
+official_website = "https://github.com/Gpower2/gMKVExtractGUI/releases"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "Gpower2"
+repo = "gMKVExtractGUI"
+
+[config.windows]
+d_position = "zip"

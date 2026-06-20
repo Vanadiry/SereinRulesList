@@ -1,0 +1,19 @@
+{
+    "source_id": "v-opensource",
+    "type": "rules",
+    "name": "v-其他开源",
+    "version": 1,
+    "description": "",
+    "baseurl": "",
+    "files": [
+        "7zip.toml",
+        "Firefox.toml",
+        "FreeFileSync.toml",
+        "FreeFileSync_Donation.toml",
+        "HTTrack.toml",
+        "MediaInfo.toml",
+        "MKVToolNix.toml",
+        "Thunderbird.toml",
+        "VLC.toml"
+    ]
+}
