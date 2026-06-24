@@ -1,0 +1,20 @@
+[info]
+app_id = "PrismLauncher"
+name = "PrismLauncher"
+description = "Minecraft启动器"
+official_website = "https://github.com/PrismLauncher/PrismLauncher/releases/"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "PrismLauncher"
+repo = "PrismLauncher"
+
+[config.macos]
+d_position = "dmg"
+
+[config.windows]
+d_position = "MSVC-Setup"
+
+[config.linux]
+d_position = "86_64.AppImage$"

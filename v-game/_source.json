@@ -2,11 +2,12 @@
     "source_id": "v-game",
     "type": "rules",
     "name": "v-游戏",
-    "version": 3,
+    "version": 4,
     "description": "",
     "baseurl": "",
     "files": [
         "HMCL.toml",
-        "osu.toml"
+        "osu.toml",
+        "PrismLauncher.toml"
     ]
 }

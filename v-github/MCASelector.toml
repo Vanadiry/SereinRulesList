@@ -1,0 +1,20 @@
+[info]
+app_id = "MCASelector"
+name = "MCASelector"
+description = "Minecraft区块编辑工具"
+official_website = "https://github.com/Querz/mcaselector/releases/"
+platforms = ["windows", "macos", "linux"]
+
+[config]
+type = "github"
+owner = "Querz"
+repo = "mcaselector"
+
+[config.windows]
+d_position = "exe"
+
+[config.macos]
+d_position = "aarch64.dmg"
+
+[config.linux]
+d_position = "x64.(deb|rpm)"

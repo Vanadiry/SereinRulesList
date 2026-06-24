@@ -1,0 +1,14 @@
+[info]
+app_id = "NBTExplorer"
+name = "NBTExplorer"
+description = "NBT标签编辑工具"
+official_website = "https://github.com/jaquadro/NBTExplorer/releases/"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "jaquadro"
+repo = "NBTExplorer"
+
+[config.windows]
+d_position = "zip"
