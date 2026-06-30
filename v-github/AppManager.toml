@@ -1,0 +1,14 @@
+[info]
+app_id = "AppManager"
+name = "AppManager"
+description = "App管理工具"
+official_website = "https://github.com/MuntashirAkon/AppManager/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "MuntashirAkon"
+repo = "AppManager"
+
+[config.android]
+d_position = "apk$"

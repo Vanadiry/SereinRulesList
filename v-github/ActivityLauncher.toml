@@ -1,0 +1,14 @@
+[info]
+app_id = "ActivityLauncher"
+name = "ActivityLauncher"
+description = "App启动工具"
+official_website = "https://github.com/ActivityLauncher/ActivityLauncher/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "ActivityLauncher"
+repo = "ActivityLauncher"
+
+[config.android]
+d_position = "apk"

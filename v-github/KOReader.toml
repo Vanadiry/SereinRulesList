@@ -1,0 +1,14 @@
+[info]
+app_id = "KOReader"
+name = "KOReader"
+description = "App启动工具"
+official_website = "https://github.com/koreader/koreader/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "koreader"
+repo = "koreader"
+
+[config.android]
+d_position = "arm64.*apk"
