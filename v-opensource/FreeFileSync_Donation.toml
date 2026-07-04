@@ -8,7 +8,7 @@ platforms = ["windows", "macos", "linux"]
 [config]
 type = "regex"
 # url = "https://freefilesync.org/thank-you.php?tx=（在此处填入你的捐赠Token）"
-v_position = "<td>([0-9]+(?:[.][0-9]+)*)</td>"
+v_position = { selector = "a[href*='Donation_Edition'][href*='_Windows.zip']", attr = "href", regex = "FreeFileSync_(.*)_%5BDonation_Edition" }
 
 [config.windows]
 d_type = "html_selector"
