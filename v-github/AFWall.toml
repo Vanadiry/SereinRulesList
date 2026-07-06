@@ -1,0 +1,14 @@
+[info]
+app_id = "AFWall"
+name = "AFWall"
+description = "安卓防火墙"
+official_website = "https://github.com/ukanth/afwall/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "ukanth"
+repo = "afwall"
+
+[config.android]
+d_position = "Free.apk"

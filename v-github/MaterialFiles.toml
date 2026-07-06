@@ -1,0 +1,14 @@
+[info]
+app_id = "MaterialFiles"
+name = "MaterialFiles"
+description = "文件管理器"
+official_website = "https://github.com/zhanghai/MaterialFiles/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "zhanghai"
+repo = "MaterialFiles"
+
+[config.android]
+d_position = "fdroid.apk"
