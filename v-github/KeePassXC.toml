@@ -1,0 +1,20 @@
+[info]
+app_id = "KeePassXC"
+name = "KeePassXC"
+description = "桌面端密码本工具"
+official_website = "https://github.com/keepassxreboot/keepassxc/releases"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "github"
+owner = "keepassxreboot"
+repo = "keepassxc"
+
+[config.macos]
+d_position = "arm64.dmg$"
+
+[config.windows]
+d_position = "Win64.msi$"
+
+[config.linux]
+d_position = "x86_64.AppImage$"

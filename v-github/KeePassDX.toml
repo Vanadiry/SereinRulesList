@@ -1,7 +1,7 @@
 [info]
 app_id = "KeePassDX"
 name = "KeePassDX"
-description = "密码本工具"
+description = "安卓密码本工具"
 official_website = "https://github.com/Kunzisoft/KeePassDX/releases"
 platforms = ["android"]
 

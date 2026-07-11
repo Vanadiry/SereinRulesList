@@ -1,0 +1,14 @@
+[info]
+app_id = "MonitorControl"
+name = "MonitorControl"
+description = "轻量的显示器控制工具"
+official_website = "https://github.com/MonitorControl/MonitorControl/releases"
+platforms = ["macos"]
+
+[config]
+type = "github"
+owner = "MonitorControl"
+repo = "MonitorControl"
+
+[config.macos]
+d_position = "dmg"
