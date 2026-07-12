@@ -1,0 +1,20 @@
+[info]
+app_id = "OpenCode"
+name = "OpenCode"
+description = "AI Agent"
+official_website = "https://github.com/anomalyco/opencode/releases/"
+platforms = ["windows", "macos", "linux"]
+
+[config]
+type = "github"
+owner = "anomalyco"
+repo = "opencode"
+
+[config.windows]
+d_position = "win-x64.exe$"
+
+[config.macos]
+d_position = "mac-arm64.dmg$"
+
+[config.linux]
+d_position = "linux-x86_64.AppImage$"

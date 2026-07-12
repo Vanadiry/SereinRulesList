@@ -2,7 +2,7 @@
     "source_id": "v-github",
     "type": "rules",
     "name": "v-GitHub",
-    "version": 10,
+    "version": 12,
     "description": "",
     "baseurl": "",
     "files": [
@@ -57,6 +57,7 @@
         "NBTExplorer.toml",
         "NotePadmm.toml",
         "OBS.toml",
+        "OpenCode.toml",
         "Pearcleaner.toml",
         "Petrichor.toml",
         "pikapika.toml",
