@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "known_extensions": [
+        "exe",
+        "zip",
+        "dmg",
+        "pkg",
+        "msi",
+        "apk",
+        "deb",
+        "rpm",
+        "AppImage",
+        "tar.gz",
+        "tar.xz",
+        "tar.bz2",
+        "gz",
+        "bz2",
+        "xz",
+        "7z",
+        "rar",
+        "ipa",
+        "iso",
+        "jar",
+        "ttf",
+        "otf",
+        "ttc",
+        "woff",
+        "woff2"
+    ]
+}
