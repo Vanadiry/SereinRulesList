@@ -1,5 +1,5 @@
 {
-    "version": 1,
+    "version": 2,
     "known_extensions": [
         "exe",
         "zip",
@@ -26,5 +26,24 @@
         "ttc",
         "woff",
         "woff2"
+    ],
+    "version_prefixes": [
+        "v",
+        "V",
+        "Version ",
+        "v-",
+        "V-",
+        "ver-",
+        "Ver-",
+        "notepad-v"
+    ],
+    "version_suffixes": [
+        "\n",
+        " ",
+        "-stable",
+        "-canary",
+        "-win",
+        "_stable",
+        "-lazer"
     ]
 }
