@@ -11,6 +11,7 @@ ua = "curl/8.0.0"
 d_position = { selector = ".c-step-download a", attr = "href" }
 v_type = "regex"
 v_position = "data-latest-firefox=\"(.*)\""
+force_downloader = true
 
 [config.macos]
 url = "https://www.firefox.com/zh-CN/download/all/desktop-release/osx/zh-CN/"

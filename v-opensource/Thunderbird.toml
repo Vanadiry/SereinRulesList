@@ -10,6 +10,7 @@ type = "regex"
 d_type = "html_selector"
 url = "https://www.thunderbird.net/zh-CN/thunderbird/all/"
 v_position = "defaultLatestVersion: '([\\d.]+)'"
+force_downloader = true
 
 [config.macos]
 d_position = { selector = "a[data-download-version='osx'][data-download-locale='zh-CN']", attr = "href" }
