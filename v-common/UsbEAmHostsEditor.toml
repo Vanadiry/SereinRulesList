@@ -8,7 +8,7 @@ platforms = ["windows"]
 [config]
 type = "html_selector"
 url = "https://www.dogfight360.com/blog/18627/"
-v_position = { selector = "h1.entry-title", regex = "V(.*)" }
+v_position = { selector = "h1.article-title", regex = "V(.*)" }
 
 [config.windows]
 d_position = { selector = "a[href*='UsbEAm_Hosts_Editor']", attr = "href" }
