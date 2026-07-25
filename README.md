@@ -7,6 +7,8 @@
 url = "https://raw.githubusercontent.com/Vanadiry/SereinRulesList/refs/heads/main/_source.json"
 ```
 
+一些不再维护的内容，移动到了本仓库的 archive 目录下，如有需要，请自行下载。
+
 ## 创建和分发规则
 
 若要创建自己的规则，请前往 [此处](https://github.com/Vanadiry/Serein/blob/main/docs/rules/_rules.md) 查看自定义规则和规则源的方式。
