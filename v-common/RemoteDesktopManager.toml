@@ -6,18 +6,18 @@ official_website = "https://devolutions.net/remote-desktop-manager/download/"
 platforms = ["windows", "macos", "linux"]
 
 [config]
-type = "regex"
+type = "html_selector"
 url = "https://devolutions.net/remote-desktop-manager/download/"
 
 [config.windows]
-d_position = "href=\"(https://cdn\\.devolutions.*download.*win-x64.*exe)\""
-v_position = "href=\"https://cdn\\.devolutions.*download.*win-x64\\.(.*)\\.exe\""
+v_position = { selector = "[data-dl-section=\"rdm-windows\"] a", attr = "data-g-version" }
+d_position = { selector = "[data-dl-section=\"rdm-windows\"] a[data-g-extension=\"exe\"]", attr = "href" }
 
 [config.macos]
-d_position = "href=\"(https://cdn\\.devolutions.*download.*dmg)\""
-v_position = "href=\"https://cdn\\.devolutions.*download.*Mac\\.(.*)\\.dmg\""
+v_position = { selector = "[data-dl-section=\"rdm-macos\"] a", attr = "data-g-version" }
+d_position = { selector = "[data-dl-section=\"rdm-macos\"] a", attr = "href" }
 
 [config.linux]
-d_position = "href=\"(https://cdn\\.devolutions.*download.*amd64\\.deb)\""
-v_position = "href=\"https://cdn\\.devolutions.*download.*RDM/(.*)/RemoteDesktopManager.*deb\""
-
+type = "regex"
+v_position = "\"rdmLinuxFallbackVersion\":\"([^\"]+)\""
+d_position = "\"deb__x64\":\\{\"url\":\"(https://[^\"]+\\.deb)\""

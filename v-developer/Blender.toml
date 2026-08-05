@@ -10,8 +10,8 @@ type = "html_selector"
 url = "https://www.blender.org/download/"
 
 [config.macos]
-d_position = { selector = "#macos-apple-silicon a", attr = "href" }
-v_position = { selector = "#macos-apple-silicon a", attr = "href", regex = "blender-(.*)-macos"}
+d_position = { selector = "#macos a", attr = "href" }
+v_position = { selector = "#macos a", attr = "href", regex = "blender-(.*)-macos" }
 
 [config.windows]
 d_position = { selector = "#windows a", attr = "href" }
