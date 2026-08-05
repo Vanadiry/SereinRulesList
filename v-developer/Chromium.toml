@@ -6,24 +6,18 @@ official_website = "https://download-chromium.appspot.com"
 platforms = ["macos", "windows", "linux"]
 
 [config]
-type = "html_selector"
-baseurl = "https://download-chromium.appspot.com"
-v_type = "regex"
+type = "regex"
+v_position = "(\\d+)"
+d_type = "direct"
 
 [config.macos]
-url = "https://download-chromium.appspot.com/?platform=Mac_Arm"
-d_position = { selector = "#download", attr = "href" }
 v_url = "https://commondatastorage.googleapis.com/chromium-browser-snapshots/Mac_Arm/LAST_CHANGE"
-v_position = "(\\d+)"
+d_url = "https://commondatastorage.googleapis.com/chromium-browser-snapshots/Mac_Arm/{version}/chrome-mac.zip"
 
 [config.windows]
-url = "https://download-chromium.appspot.com/?platform=Win_x64"
-d_position = { selector = "#download", attr = "href" }
 v_url = "https://commondatastorage.googleapis.com/chromium-browser-snapshots/Win_x64/LAST_CHANGE"
-v_position = "(\\d+)"
+d_url = "https://commondatastorage.googleapis.com/chromium-browser-snapshots/Win_x64/{version}/chrome-win.zip"
 
 [config.linux]
-url = "https://download-chromium.appspot.com/?platform=Linux_x64"
-d_position = { selector = "#download", attr = "href" }
 v_url = "https://commondatastorage.googleapis.com/chromium-browser-snapshots/Linux_x64/LAST_CHANGE"
-v_position = "(\\d+)"
+d_url = "https://commondatastorage.googleapis.com/chromium-browser-snapshots/Linux_x64/{version}/chrome-linux.zip"

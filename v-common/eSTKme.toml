@@ -1,0 +1,21 @@
+[info]
+app_id = "eSTKme"
+name = "eSTKme"
+description = "eSIM STK 管理工具"
+official_website = "https://store.estk.me/downloads"
+platforms = ["windows", "linux", "android"]
+
+[config]
+type = "json"
+url = "https://oss.estk.me/management_app/metadata.json"
+baseurl = "https://oss.estk.me/management_app/"
+v_position = ["version"]
+
+[config.windows]
+d_position = ["download", "windows"]
+
+[config.linux]
+d_position = ["download", "linux"]
+
+[config.android]
+d_position = ["download", "android"]

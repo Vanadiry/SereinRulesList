@@ -1,0 +1,16 @@
+[info]
+app_id = "ABetterFinderRename"
+name = "A Better Finder Rename"
+description = "macOS 批量重命名工具"
+official_website = "https://www.publicspace.net/ABetterFinderRename/"
+platforms = ["macos"]
+
+[config]
+type = "html_selector"
+url = "https://www.publicspace.net/ABetterFinderRename/download.html"
+baseurl = "https://www.publicspace.net"
+v_type = "regex"
+v_position = '"softwareVersion": "([0-9.]+)"'
+
+[config.macos]
+d_position = { selector = "#download_button a", attr = "href" }

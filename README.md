@@ -31,7 +31,7 @@ url = "https://raw.githubusercontent.com/Vanadiry/SereinRulesList/refs/heads/mai
 
 ## 停止和暂停维护的规则
 
-一些由于软件删库等原因，不再可用的规则，移动到了本仓库的 archive 目录下。
+一些由于软件删库等原因，不再可用的规则，将会移动到本仓库的 archive 目录下。
 
 一些由于有更好的替代软件，或是其他原因，而暂停维护的规则，加入了 `status = ["暂停维护此规则"]`。  
 这会在 Serein 的软件名旁边，展示一个黄色圆点，来指示软件本身或规则处于暂停维护状态。

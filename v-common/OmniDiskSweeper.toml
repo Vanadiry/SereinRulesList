@@ -1,0 +1,13 @@
+[info]
+app_id = "OmniDiskSweeper"
+name = "OmniDiskSweeper"
+description = "磁盘空间分析软件"
+official_website = "https://www.omnigroup.com/more"
+platforms = ["macos"]
+
+[config]
+type = "regex"
+url = "https://update.omnigroup.com/appcast/com.omnigroup.OmniDiskSweeper/"
+v_position = "<omniappcast:marketingVersion>([0-9.]+)</omniappcast:marketingVersion>"
+d_type = "direct"
+d_url = "https://www.omnigroup.com/download/latest/OmniDiskSweeper"

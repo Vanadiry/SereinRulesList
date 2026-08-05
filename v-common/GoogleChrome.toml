@@ -1,0 +1,23 @@
+[info]
+app_id = "GoogleChrome"
+name = "Google Chrome"
+description = "谷歌浏览器"
+official_website = "https://www.google.com/chrome/"
+platforms = ["windows", "macos", "linux"]
+
+[config]
+type = "json"
+v_position = [0, "version"]
+d_type = "direct"
+
+[config.windows]
+v_url = "https://chromiumdash.appspot.com/fetch_releases?channel=Stable&platform=Windows&num=1"
+d_url = "https://dl.google.com/chrome/install/standalonesetup64.exe"
+
+[config.macos]
+v_url = "https://chromiumdash.appspot.com/fetch_releases?channel=Stable&platform=Mac&num=1"
+d_url = "https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg"
+
+[config.linux]
+v_url = "https://chromiumdash.appspot.com/fetch_releases?channel=Stable&platform=Linux&num=1"
+d_url = "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
