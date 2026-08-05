@@ -2,7 +2,7 @@
 app_id = "Locale-Emulator"
 name = "Locale-Emulator"
 description = "转区"
-status = ["Archived"]
+status = ["已归档"]
 official_website = "https://github.com/xupefei/Locale-Emulator/releases/"
 platforms = ["windows"]
 

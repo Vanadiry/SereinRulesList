@@ -2,7 +2,6 @@
 app_id = "jasmine"
 name = "jasmine"
 description = "神秘看图软件"
-status = ["Archived"]
 official_website = "https://github.com/ComicSparks/jasmine/releases"
 platforms = ["macos", "windows", "linux", "ios", "android"]
 

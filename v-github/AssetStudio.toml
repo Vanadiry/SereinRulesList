@@ -2,7 +2,7 @@
 app_id = "AssetStudio"
 name = "AssetStudio"
 description = "Unity解包工具"
-status = ["Archived"]
+status = ["已归档"]
 official_website = "https://github.com/Perfare/AssetStudio/releases/"
 platforms = ["windows"]
 
