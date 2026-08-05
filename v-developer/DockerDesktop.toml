@@ -1,0 +1,23 @@
+[info]
+app_id = "DockerDesktop"
+name = "Docker Desktop"
+description = "Docker 桌面客户端"
+official_website = "https://www.docker.com/products/docker-desktop/"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "regex"
+url = "https://desktop.docker.com/mac/main/arm64/appcast.xml"
+v_position = "<title>Version ([0-9.]+)"
+
+[config.macos]
+d_type = "direct"
+d_url = "https://desktop.docker.com/mac/main/arm64/Docker.dmg"
+
+[config.windows]
+d_type = "direct"
+d_url = "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe"
+
+[config.linux]
+d_type = "direct"
+d_url = "https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb"

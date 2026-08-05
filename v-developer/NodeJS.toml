@@ -1,0 +1,23 @@
+[info]
+app_id = "NodeJS"
+name = "Node.js"
+description = "JavaScript 运行时"
+official_website = "https://nodejs.org/zh-cn/download"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "regex"
+url = "https://nodejs.org/zh-cn/download"
+v_position = "href=\"v(\\d+\\.\\d+\\.\\d+)\"[^>]*><span>v\\d+\\.\\d+\\.\\d+</span><span[^>]*>Current"
+
+[config.macos]
+d_type = "direct"
+d_url = "https://nodejs.org/dist/v{version}/node-v{version}.pkg"
+
+[config.windows]
+d_type = "direct"
+d_url = "https://nodejs.org/dist/v{version}/node-v{version}-x64.msi"
+
+[config.linux]
+d_type = "direct"
+d_url = "https://nodejs.org/dist/v{version}/node-v{version}-linux-x64.tar.xz"

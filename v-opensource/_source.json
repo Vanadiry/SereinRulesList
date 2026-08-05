@@ -2,7 +2,7 @@
     "source_id": "v-opensource",
     "type": "rules",
     "name": "v-其他开源",
-    "version": 4,
+    "version": 5,
     "description": "",
     "baseurl": "",
     "files": [
@@ -11,6 +11,7 @@
         "FreeFileSync.toml",
         "FreeFileSync_Donation.toml",
         "GIMP.toml",
+        "GnuCash.toml",
         "HTTrack.toml",
         "Krita.toml",
         "MediaInfo.toml",

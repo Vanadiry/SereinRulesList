@@ -1,0 +1,21 @@
+[info]
+app_id = "AndroidStudio"
+name = "Android Studio"
+description = "安卓官方开发环境"
+official_website = "https://developer.android.com/studio"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "regex"
+url = "https://developer.android.com/studio"
+ua = "curl/8.0.0"
+v_position = "\\| (\\d{4}\\.\\d+\\.\\d+)"
+
+[config.macos]
+d_position = "href=\"(https://edgedl\\.me\\.gvt1\\.com/android/studio/install/[^\"]*mac_arm\\.dmg)\""
+
+[config.windows]
+d_position = "href=\"(https://edgedl\\.me\\.gvt1\\.com/android/studio/install/[^\"]*windows\\.exe)\""
+
+[config.linux]
+d_position = "href=\"(https://edgedl\\.me\\.gvt1\\.com/android/studio/ide-zips/[^\"]*linux\\.tar\\.gz)\""

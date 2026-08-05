@@ -1,0 +1,17 @@
+[info]
+app_id = "GnuCash"
+name = "GnuCash"
+description = "开源记账软件"
+official_website = "https://gnucash.org/download.phtml"
+platforms = ["windows", "macos"]
+
+[config]
+type = "regex"
+url = "https://gnucash.org/download.phtml"
+v_position = "Stable release \\((\\d+\\.\\d+)\\)"
+
+[config.windows]
+d_position = "href=\"(https://sourceforge[^\"]*\\.setup\\.exe)\""
+
+[config.macos]
+d_position = "href=\"(https://sourceforge[^\"]*Gnucash-Arm[^\"]*\\.dmg)\""

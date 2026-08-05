@@ -1,0 +1,14 @@
+[info]
+app_id = "NxNandManager"
+name = "NxNandManager"
+description = "Switch NAND 提取和预览工具"
+official_website = "https://github.com/eliboa/NxNandManager/releases"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "eliboa"
+repo = "NxNandManager"
+
+[config.windows]
+d_position = "x64.zip"

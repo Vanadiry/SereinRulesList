@@ -2,7 +2,7 @@
     "source_id": "v-github",
     "type": "rules",
     "name": "v-GitHub",
-    "version": 13,
+    "version": 14,
     "description": "",
     "baseurl": "",
     "files": [
@@ -54,6 +54,7 @@
         "MusicPlayer2.toml",
         "NBTExplorer.toml",
         "NotePadmm.toml",
+        "NxNandManager.toml",
         "OBS.toml",
         "OpenCode.toml",
         "Pearcleaner.toml",

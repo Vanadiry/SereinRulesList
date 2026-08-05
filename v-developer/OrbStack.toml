@@ -1,0 +1,15 @@
+[info]
+app_id = "OrbStack"
+name = "OrbStack"
+description = "轻量Docker客户端"
+official_website = "https://orbstack.dev/download"
+platforms = ["macos"]
+
+[config]
+type = "html_selector"
+url = "https://orbstack.dev/docs/release-notes"
+v_position = { selector = ".vp-doc h2", regex = "v([0-9.]+)" }
+
+[config.macos]
+d_type = "direct"
+d_url = "https://orbstack.dev/download/stable/latest/arm64"

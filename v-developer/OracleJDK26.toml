@@ -1,0 +1,20 @@
+[info]
+app_id = "OracleJDK26"
+name = "Oracle JDK 26"
+description = "Oracle Java SE Development Kit 26"
+official_website = "https://www.oracle.com/java/technologies/downloads/#java26"
+platforms = ["macos", "windows", "linux"]
+
+[config]
+type = "html_selector"
+url = "https://www.oracle.com/java/technologies/downloads/"
+v_position = { selector = "#java26 h3", regex = "Java SE Development Kit ([0-9.]+)" }
+
+[config.macos]
+d_position = { selector = "a[href$='jdk-26_macos-aarch64_bin.dmg']", attr = "href" }
+
+[config.windows]
+d_position = { selector = "a[href$='jdk-26_windows-x64_bin.exe']", attr = "href" }
+
+[config.linux]
+d_position = { selector = "a[href$='jdk-26_linux-x64_bin.tar.gz']", attr = "href" }

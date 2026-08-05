@@ -1,14 +1,20 @@
 [info]
 app_id = "DevToys"
 name = "DevToys"
-description = "Windows增强工具"
+description = "开发者工具箱"
 official_website = "https://github.com/DevToys-app/DevToys/releases"
-platforms = ["windows"]
+platforms = ["windows", "macos", "linux"]
 
 [config]
-type = "github"
-owner = "DevToys-app"
-repo = "DevToys"
+type = "json"
+url = "https://api.github.com/repos/DevToys-app/DevToys/releases"
+v_position = [0, "tag_name"]
 
 [config.windows]
-d_position = "msixbundle"
+d_position = [0, "assets", "name~win_x64.*\\.exe$", "browser_download_url"]
+
+[config.macos]
+d_position = [0, "assets", "name~osx_arm64.*\\.zip$", "browser_download_url"]
+
+[config.linux]
+d_position = [0, "assets", "name~linux_x64.*\\.deb$", "browser_download_url"]
