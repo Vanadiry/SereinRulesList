@@ -1,6 +1,7 @@
 [info]
 app_id = "M3U8Downloader"
 name = "M3U8 视频下载器"
+status = ["暂停维护此规则"]
 description = "M3U8 视频下载器"
 official_website = "https://www.52pojie.cn/thread-1374045-1-1.html"
 platforms = ["windows"]

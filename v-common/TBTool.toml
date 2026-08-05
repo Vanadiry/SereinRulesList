@@ -1,6 +1,7 @@
 [info]
 app_id = "TBTool"
 name = "图吧工具箱"
+status = ["暂停维护此规则"]
 description = "图吧工具箱"
 official_website = "https://www.tbtool.cn/download/index.html"
 platforms = ["windows"]

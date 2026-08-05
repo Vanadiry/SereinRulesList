@@ -1,0 +1,13 @@
+[info]
+app_id = "CrossOver"
+name = "CrossOver"
+description = "Windows 应用兼容层"
+official_website = "https://www.codeweavers.com/crossover/download-now"
+platforms = ["macos"]
+
+[config]
+type = "regex"
+url = "https://www.codeweavers.com/crossover/download-now"
+v_position = "\"dlVer\": \"([0-9.]+)\""
+d_type = "direct"
+d_url = "https://media.codeweavers.com/pub/crossover/cxmac/demo/crossover-{version}.zip"
