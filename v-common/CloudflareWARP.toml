@@ -1,0 +1,18 @@
+[info]
+app_id = "CloudflareWARP"
+name = "Cloudflare WARP"
+description = "Cloudflare WARP"
+official_website = "https://one.one.one.one/"
+platforms = ["macos", "windows"]
+
+[config]
+type = "regex"
+url = "https://downloads.cloudflareclient.com/v1/update/sparkle/macos/ga"
+v_position = "<title>Version ([0-9.]+)"
+d_type = "direct"
+
+[config.macos]
+d_url = "https://1111-releases.cloudflareclient.com/mac/latest"
+
+[config.windows]
+d_url = "https://1111-releases.cloudflareclient.com/win/latest"

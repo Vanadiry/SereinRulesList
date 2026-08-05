@@ -1,0 +1,20 @@
+[info]
+app_id = "FLStudio"
+name = "FL Studio"
+description = "数字音频工作站"
+official_website = "https://www.image-line.com/fl-studio/download"
+platforms = ["windows", "macos"]
+
+[config]
+type = "regex"
+url = "https://www.image-line.com/fl-studio/download"
+
+[config.windows]
+v_position = "versionInfo\\?\\.pc\\?\\.version \\|\\| '([0-9.]+)'"
+d_type = "direct"
+d_url = "https://support.image-line.com/redirect/flstudio_win_installer"
+
+[config.macos]
+v_position = "versionInfo\\?\\.mac\\?\\.version \\|\\| '([0-9.]+)'"
+d_type = "direct"
+d_url = "https://support.image-line.com/redirect/flstudio_mac_installer"

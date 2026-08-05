@@ -2,19 +2,23 @@
 app_id = "DownKyiCore"
 name = "DownKyiCore"
 description = "Bilibili视频下载工具"
-official_website = "https://github.com/yaobiao131/downkyicore/releases"
+official_website = "https://github.com/crazysmile-PhD/downkyicore/releases"
 platforms = ["macos", "windows", "linux"]
+
+# 本仓库是社区继续维护的分支，原仓库均被迫删库，感谢开发者的付出
+# 原仓库1：leiurayer/downkyi
+# 原仓库2：yaobiao131/downkyicore
 
 [config]
 type = "github"
-owner = "yaobiao131"
+owner = "crazysmile-PhD"
 repo = "downkyicore"
 
 [config.macos]
 d_position = "osx-arm64"
 
 [config.windows]
-d_position = "win-x64.zip"
+d_position = "win-x64"
 
 [config.linux]
 d_position = "x86_64.*rpm$|amd64.*deb$|x86_64.*AppImage$"

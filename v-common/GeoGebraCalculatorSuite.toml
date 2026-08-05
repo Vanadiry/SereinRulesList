@@ -2,14 +2,15 @@
 app_id = "GeoGebraCalculatorSuite"
 name = "GeoGebra Calculator Suite"
 description = "科学和图形计算器套件"
-official_website = "https://www.videolan.org/vlc/"
+official_website = "https://www.geogebra.org/download"
 platforms = ["macos", "windows"]
 
 [config]
-type = "html_selector"
-v_type = "direct"
-v_url = "Latest"
+type = "json"
 url = "https://geogebra.github.io/docs/reference/en/GeoGebra_Installation/"
+v_url = "https://api.github.com/repos/microsoft/winget-pkgs/contents/manifests/g/GeoGebra/CalculatorSuite"
+v_position = [-1, "name"]
+d_type = "html_selector"
 
 [config.macos]
 d_position = { selector = "a[href$='mac-suite-portable']", attr = "href" }

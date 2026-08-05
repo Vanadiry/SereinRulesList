@@ -1,0 +1,16 @@
+[info]
+app_id = "CheatEngine"
+name = "Cheat Engine (Online)"
+description = "内存修改工具"
+official_website = "https://cheatengine.org/downloads.php"
+platforms = ["windows"]
+
+[config]
+type = "regex"
+url = "https://cheatengine.org/downloads.php"
+ua = "curl/8.0.0"
+v_position = "Download Cheat Engine (\\d+\\.\\d+)"
+
+[config.windows]
+d_url = "https://cheatengine.org/"
+d_position = "href=\"(https://[^\"]*\\.exe)\""

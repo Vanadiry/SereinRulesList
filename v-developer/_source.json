@@ -2,7 +2,7 @@
     "source_id": "v-developer",
     "type": "rules",
     "name": "v-开发",
-    "version": 5,
+    "version": 6,
     "description": "",
     "baseurl": "",
     "files": [
@@ -14,6 +14,7 @@
         "Cyberduck.toml",
         "DevToys.toml",
         "DockerDesktop.toml",
+        "ExHyperV.toml",
         "Git.toml",
         "Godot.toml",
         "HexFiend.toml",

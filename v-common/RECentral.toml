@@ -1,0 +1,18 @@
+[info]
+app_id = "RECentral"
+name = "RECentral"
+description = "AVerMedia 采集卡软件"
+official_website = "https://www.avermedia.com/uk/support/download"
+platforms = ["windows", "macos"]
+
+[config]
+type = "html_selector"
+url = "https://www.avermedia.com/uk/support/download"
+
+[config.windows]
+v_position = { selector = ".RECentral-Windows ._tags_contentIterm__left", regex = "RECentral\\d* v([0-9.]+)" }
+d_position = { selector = ".RECentral-Windows ._support_content__btn", attr = "href" }
+
+[config.macos]
+v_position = { selector = ".recentral-macos ._tags_contentIterm__left", regex = "RECentralExpress v([0-9.]+)" }
+d_position = { selector = ".recentral-macos ._support_content__btn", attr = "href" }

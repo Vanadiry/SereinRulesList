@@ -1,6 +1,7 @@
 [info]
 app_id = "163MusicLyrics"
 name = "163MusicLyrics"
+status = ["暂停维护此规则"]
 description = "网易云音乐歌词下载器"
 official_website = "https://github.com/jitwxs/163MusicLyrics/releases"
 platforms = ["macos", "windows", "linux"]
@@ -17,4 +18,4 @@ d_position = "osx-arm64"
 d_position = "win-x64"
 
 [config.linux]
-d_position = "linux"
+d_position = "linux-x64"

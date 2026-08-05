@@ -1,5 +1,6 @@
 [info]
 app_id = "ExHyperV"
+status = ["暂停维护此规则"]
 name = "ExHyperV"
 description = "Hyper-V 管理器"
 official_website = "https://github.com/Justsenger/ExHyperV/releases"
@@ -11,4 +12,4 @@ owner = "Justsenger"
 repo = "ExHyperV"
 
 [config.windows]
-d_position = "x64"
+d_position = "x64.exe$"
