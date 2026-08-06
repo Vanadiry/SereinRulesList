@@ -1,11 +1,12 @@
 {
-    "version": 2,
+    "version": 5,
     "known_extensions": [
         "exe",
         "zip",
         "dmg",
         "pkg",
         "msi",
+        "msix",
         "msixbundle",
         "apk",
         "deb",

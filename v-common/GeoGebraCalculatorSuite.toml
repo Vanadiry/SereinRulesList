@@ -11,6 +11,7 @@ url = "https://geogebra.github.io/docs/reference/en/GeoGebra_Installation/"
 v_url = "https://api.github.com/repos/microsoft/winget-pkgs/contents/manifests/g/GeoGebra/CalculatorSuite"
 v_position = [-1, "name"]
 d_type = "html_selector"
+force_downloader = true
 
 [config.macos]
 d_position = { selector = "a[href$='mac-suite-portable']", attr = "href" }

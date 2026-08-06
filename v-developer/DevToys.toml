@@ -14,7 +14,7 @@ v_position = [0, "tag_name"]
 d_position = [0, "assets", "name~win_x64.*\\.exe$", "browser_download_url"]
 
 [config.macos]
-d_position = [0, "assets", "name~osx_arm64.*\\.zip$", "browser_download_url"]
+d_position = [0, "assets", "name~devtoys_osx_arm64.*\\.zip$", "browser_download_url"]
 
 [config.linux]
 d_position = [0, "assets", "name~linux_x64.*\\.deb$", "browser_download_url"]
