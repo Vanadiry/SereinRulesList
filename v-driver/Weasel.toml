@@ -1,0 +1,14 @@
+[info]
+app_id = "Weasel"
+name = "Weasel 小狼毫"
+description = "RIME Windows 输入法"
+official_website = "https://github.com/rime/weasel/releases"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "rime"
+repo = "weasel"
+
+[config.windows]
+d_position = "exe"

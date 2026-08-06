@@ -1,0 +1,14 @@
+[info]
+app_id = "ZygiskNext"
+name = "ZygiskNext"
+description = "Root 相关"
+official_website = "https://github.com/Dr-TSNG/ZygiskNext/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "Dr-TSNG"
+repo = "ZygiskNext"
+
+[config.android]
+d_position = "release"

@@ -1,0 +1,14 @@
+[info]
+app_id = "Squirrel"
+name = "Squirrel 鼠须管"
+description = "RIME macOS 输入法"
+official_website = "https://github.com/rime/squirrel/releases"
+platforms = ["macos"]
+
+[config]
+type = "github"
+owner = "rime"
+repo = "squirrel"
+
+[config.macos]
+d_position = "pkg"

@@ -6,7 +6,9 @@
     "description": "",
     "baseurl": "",
     "files": [
+        "ArCiela.toml",
         "FiraCode.toml",
+        "Hymmnos.toml",
         "JetBrainsMono.toml",
         "LxgwWenKai.toml",
         "source-han-sans.toml",

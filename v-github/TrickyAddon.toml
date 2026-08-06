@@ -1,0 +1,14 @@
+[info]
+app_id = "TrickyAddon"
+name = "Tricky-Addon"
+description = "Root 相关"
+official_website = "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "KOWX712"
+repo = "Tricky-Addon-Update-Target-List"
+
+[config.android]
+d_position = "TrickyAddonModule"

@@ -1,0 +1,14 @@
+[info]
+app_id = "TrickyStore"
+name = "TrickyStore"
+description = "Root 相关"
+official_website = "https://github.com/5ec1cff/TrickyStore/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "5ec1cff"
+repo = "TrickyStore"
+
+[config.android]
+d_position = "release"

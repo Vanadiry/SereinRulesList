@@ -16,6 +16,7 @@
         "Krita.toml",
         "MediaInfo.toml",
         "MKVToolNix.toml",
+        "OpenEUICC.toml",
         "Thunderbird.toml",
         "VLC.toml"
     ]

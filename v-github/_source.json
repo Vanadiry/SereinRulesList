@@ -73,9 +73,14 @@
         "SideStore.toml",
         "Sigil.toml",
         "StikDebug.toml",
+        "SukiSUUltra.toml",
+        "TrickyAddon.toml",
+        "TrickyStore.toml",
         "UVR.toml",
+        "Vector.toml",
         "VideoSubtitleExtractor.toml",
         "waifu2x-caffe.toml",
-        "WattToolkit.toml"
+        "WattToolkit.toml",
+        "ZygiskNext.toml"
     ]
 }

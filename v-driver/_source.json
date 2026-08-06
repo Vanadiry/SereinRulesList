@@ -1,0 +1,12 @@
+{
+    "source_id": "v-driver",
+    "type": "rules",
+    "name": "v-驱动程序",
+    "version": 1,
+    "description": "",
+    "baseurl": "",
+    "files": [
+        "Squirrel.toml",
+        "Weasel.toml"
+    ]
+}

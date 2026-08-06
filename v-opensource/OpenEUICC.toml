@@ -1,0 +1,14 @@
+[info]
+app_id = "OpenEUICC"
+name = "OpenEUICC"
+description = "开源 eUICC 管理工具"
+official_website = "https://gitea.angry.im/PeterCxy/OpenEUICC/releases"
+platforms = ["android"]
+
+[config]
+type = "json"
+url = "https://gitea.angry.im/api/v1/repos/PeterCxy/OpenEUICC/releases"
+v_position = [0, "tag_name"]
+
+[config.android]
+d_position = [0, "assets", "name~.*\\.apk$", "browser_download_url"]

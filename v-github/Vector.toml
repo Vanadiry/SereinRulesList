@@ -1,0 +1,14 @@
+[info]
+app_id = "Vector"
+name = "Vector"
+description = "Root 相关"
+official_website = "https://github.com/JingMatrix/Vector/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "JingMatrix"
+repo = "Vector"
+
+[config.android]
+d_position = "Release"

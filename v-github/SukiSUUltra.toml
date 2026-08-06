@@ -1,0 +1,14 @@
+[info]
+app_id = "SukiSUUltra"
+name = "SukiSU Ultra"
+description = "Root 相关"
+official_website = "https://github.com/SukiSU-Ultra/SukiSU-Ultra/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "SukiSU-Ultra"
+repo = "SukiSU-Ultra"
+
+[config.android]
+d_position = "apk"
