@@ -1,0 +1,15 @@
+[info]
+app_id = "WizTree"
+name = "WizTree"
+description = "磁盘空间分析工具"
+official_website = "https://diskanalyzer.com/download"
+platforms = ["windows"]
+
+[config]
+type = "html_selector"
+url = "https://diskanalyzer.com/download"
+baseurl = "https://diskanalyzer.com"
+
+[config.windows]
+v_position = { selector = "a[href*='_setup.exe'] div", regex = "V[^0-9]*([0-9.]+)" }
+d_position = { selector = "a[href*='_setup.exe']", attr = "href" }

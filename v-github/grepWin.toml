@@ -1,0 +1,14 @@
+[info]
+app_id = "grepWin"
+name = "grepWin"
+description = "Windows 文本搜索工具"
+official_website = "https://github.com/stefankueng/grepWin/releases"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "stefankueng"
+repo = "grepWin"
+
+[config.windows]
+d_position = "x64.msi"

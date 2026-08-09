@@ -9,6 +9,7 @@ platforms = ["macos"]
 type = "html_selector"
 url = "https://orbstack.dev/docs/release-notes"
 v_position = { selector = ".vp-doc h2", regex = "v([0-9.]+)" }
+force_downloader = true
 
 [config.macos]
 d_type = "direct"

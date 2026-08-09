@@ -1,0 +1,14 @@
+[info]
+app_id = "Mouser"
+name = "Mouser"
+description = "鼠标工具"
+official_website = "https://github.com/TomBadash/Mouser/releases"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "TomBadash"
+repo = "Mouser"
+
+[config.windows]
+d_position = "Windows"

@@ -1,0 +1,14 @@
+[info]
+app_id = "WinRAR"
+name = "WinRAR"
+description = "压缩解压工具"
+official_website = "https://www.win-rar.com/download.html"
+platforms = ["windows"]
+
+[config]
+type = "html_selector"
+url = "https://www.win-rar.com/download.html"
+
+[config.windows]
+v_position = { selector = "a[href$='sc.exe']", regex = "WinRAR ([\\d.]+) Chinese Simplified" }
+d_position = { selector = "a[href$='sc.exe']", attr = "href" }

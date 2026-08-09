@@ -2,11 +2,12 @@
     "source_id": "v-common",
     "type": "rules",
     "name": "v-常规",
-    "version": 15,
+    "version": 16,
     "description": "",
     "baseurl": "",
     "files": [
         "ABetterFinderRename.toml",
+        "Autoruns.toml",
         "BetterDisplay.toml",
         "BitComet.toml",
         "CDI.toml",
@@ -43,6 +44,8 @@
         "TBTool.toml",
         "TinyTask.toml",
         "UsbEAmHostsEditor.toml",
-        "WePE.toml"
+        "WePE.toml",
+        "WinRAR.toml",
+        "WizTree.toml"
     ]
 }

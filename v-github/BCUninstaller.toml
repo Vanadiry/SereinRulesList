@@ -1,0 +1,14 @@
+[info]
+app_id = "BCUninstaller"
+name = "Bulk Crap Uninstaller"
+description = "批量卸载工具"
+official_website = "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/releases"
+platforms = ["windows"]
+
+[config]
+type = "github"
+owner = "BCUninstaller"
+repo = "Bulk-Crap-Uninstaller"
+
+[config.windows]
+d_position = "setup"
