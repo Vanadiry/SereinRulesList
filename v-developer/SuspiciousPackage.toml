@@ -1,0 +1,15 @@
+[info]
+app_id = "SuspiciousPackage"
+name = "Suspicious Package"
+description = "macOS pkg 包信息查看工具"
+official_website = "https://www.mothersruin.com/software/SuspiciousPackage/"
+platforms = ["macos"]
+
+[config]
+type = "html_selector"
+url = "https://www.mothersruin.com/software/SuspiciousPackage/get.html"
+baseurl = "https://www.mothersruin.com"
+
+[config.macos]
+v_position = { selector = "td.version", regex = "(\\d+\\.\\d+)" }
+d_position = { selector = "a.download-link", attr = "href" }

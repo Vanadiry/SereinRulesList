@@ -2,12 +2,14 @@
     "source_id": "v-developer",
     "type": "rules",
     "name": "v-开发",
-    "version": 10,
+    "version": 11,
     "description": "",
     "baseurl": "",
     "files": [
         "ArduinoIDE.toml",
         "AndroidStudio.toml",
+        "Apparency.toml",
+        "Archaeology.toml",
         "Blender.toml",
         "Bruno.toml",
         "Chromium.toml",
@@ -29,6 +31,7 @@
         "Python.toml",
         "RenPy.toml",
         "SourceGit.toml",
+        "SuspiciousPackage.toml",
         "VSCodium.toml",
         "Wireshark.toml"
     ]

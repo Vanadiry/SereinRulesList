@@ -1,0 +1,15 @@
+[info]
+app_id = "Archaeology"
+name = "Archaeology"
+description = "macOS 数据检查工具"
+official_website = "https://www.mothersruin.com/software/Archaeology/"
+platforms = ["macos"]
+
+[config]
+type = "html_selector"
+url = "https://www.mothersruin.com/software/Archaeology/get.html"
+baseurl = "https://www.mothersruin.com"
+
+[config.macos]
+v_position = { selector = "td.version", regex = "(\\d+\\.\\d+)" }
+d_position = { selector = "a.download-link", attr = "href" }
