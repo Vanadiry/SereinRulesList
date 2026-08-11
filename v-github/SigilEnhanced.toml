@@ -1,0 +1,17 @@
+[info]
+app_id = "SigilEnhanced"
+name = "Sigil Enhanced"
+description = "ePub电子书编辑器 增强"
+official_website = "https://github.com/3tic-project/Sigil-Enhanced/releases"
+platforms = ["macos", "windows"]
+
+[config]
+type = "github"
+owner = "3tic-project"
+repo = "Sigil-Enhanced"
+
+[config.macos]
+d_position = "arm64.dmg"
+
+[config.windows]
+d_position = "exe"

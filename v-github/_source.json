@@ -2,7 +2,7 @@
     "source_id": "v-github",
     "type": "rules",
     "name": "v-GitHub",
-    "version": 18,
+    "version": 19,
     "description": "",
     "baseurl": "",
     "files": [
@@ -75,6 +75,7 @@
         "ShareX.toml",
         "SideStore.toml",
         "Sigil.toml",
+        "SigilEnhanced.toml",
         "StikDebug.toml",
         "SukiSUUltra.toml",
         "TrickyAddon.toml",
