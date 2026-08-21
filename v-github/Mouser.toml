@@ -2,6 +2,7 @@
 app_id = "Mouser"
 name = "Mouser"
 description = "鼠标工具"
+status = ["暂停维护此规则"]
 official_website = "https://github.com/TomBadash/Mouser/releases"
 platforms = ["windows"]
 

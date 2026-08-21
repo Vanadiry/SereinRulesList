@@ -10,6 +10,7 @@ type = "regex"
 url = "https://downloads.cloudflareclient.com/v1/update/sparkle/macos/ga"
 v_position = "<title>Version ([0-9.]+)"
 d_type = "direct"
+force_downloader = true
 
 [config.macos]
 d_url = "https://1111-releases.cloudflareclient.com/mac/latest"
