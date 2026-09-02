@@ -1,0 +1,14 @@
+[info]
+app_id = "SmsForwarder"
+name = "SmsForwarder"
+description = "短信转发器"
+official_website = "https://github.com/pppscn/SmsForwarder/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "pppscn"
+repo = "SmsForwarder"
+
+[config.android]
+d_position = "arm64-v8a"

@@ -2,7 +2,7 @@
     "source_id": "v-github",
     "type": "rules",
     "name": "v-GitHub",
-    "version": 21,
+    "version": 22,
     "description": "",
     "baseurl": "",
     "files": [
@@ -76,6 +76,7 @@
         "SideStore.toml",
         "Sigil.toml",
         "SigilEnhanced.toml",
+        "SmsForwarder.toml",
         "StikDebug.toml",
         "SukiSUUltra.toml",
         "TrickyAddon.toml",
