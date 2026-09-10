@@ -9,6 +9,7 @@ platforms = ["macos", "windows", "linux"]
 type = "github"
 owner = "qarmin"
 repo = "czkawka"
+force_downloader = true
 
 [config.macos]
 d_position = "mac_krokiet_skia_vulkan_heif_avif_arm64"
