@@ -14,7 +14,7 @@ repo = "localsend"
 d_position = "dmg"
 
 [config.windows]
-d_position = "signed.exe$"
+d_position = "windows-x86-64.exe$"
 
 [config.linux]
 d_position = "linux.*x86-64"

@@ -2,7 +2,7 @@
     "source_id": "v-github",
     "type": "rules",
     "name": "v-GitHub",
-    "version": 23,
+    "version": 24,
     "description": "",
     "baseurl": "",
     "files": [
