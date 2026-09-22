@@ -11,4 +11,4 @@ owner = "zhanghai"
 repo = "MaterialFiles"
 
 [config.android]
-d_position = "fdroid.apk"
+d_position = "universal.apk"
