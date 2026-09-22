@@ -2,7 +2,7 @@
     "source_id": "v-developer",
     "type": "rules",
     "name": "v-开发",
-    "version": 12,
+    "version": 13,
     "description": "",
     "baseurl": "",
     "files": [
@@ -24,7 +24,8 @@
         "iLoader.toml",
         "MicrosoftTerminal.toml",
         "NodeJS.toml",
-        "OracleJDK26.toml",
+        "OracleJDK27.toml",
+        "OracleJDK25.toml",
         "OracleJDK8.toml",
         "OrbStack.toml",
         "PowerShell.toml",
