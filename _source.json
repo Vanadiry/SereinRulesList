@@ -5,6 +5,7 @@
     "type": "list",
     "baseurl": "",
     "files": [
+        "_deleted/_source.json",
         "v-common/_source.json",
         "v-developer/_source.json",
         "v-driver/_source.json",

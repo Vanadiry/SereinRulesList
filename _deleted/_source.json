@@ -1,0 +1,11 @@
+{
+    "source_id": "_deleted",
+    "type": "rules",
+    "name": "_已删除",
+    "version": 1,
+    "description": "",
+    "baseurl": "",
+    "files": [
+        "OracleJDK26.toml"
+    ]
+}
