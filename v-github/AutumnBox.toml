@@ -7,9 +7,10 @@ official_website = "https://github.com/zsh2401/AutumnBox/releases"
 platforms = ["windows"]
 
 [config]
-type = "json"
-url = "https://api.github.com/repos/zsh2401/AutumnBox/releases"
+type = "github"
+owner = "zsh2401"
+repo = "AutumnBox"
+allow_prerelease = true
 
 [config.windows]
-v_position = [0, "tag_name"]
-d_position = [0, "assets", 0, "browser_download_url"]
+d_position = "AutumnBox"

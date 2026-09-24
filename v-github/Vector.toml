@@ -9,6 +9,7 @@ platforms = ["android"]
 type = "github"
 owner = "JingMatrix"
 repo = "Vector"
+per_page = 10
 
 [config.android]
 d_position = "Release"

@@ -6,15 +6,16 @@ official_website = "https://github.com/DevToys-app/DevToys/releases"
 platforms = ["windows", "macos", "linux"]
 
 [config]
-type = "json"
-url = "https://api.github.com/repos/DevToys-app/DevToys/releases"
-v_position = [0, "tag_name"]
+type = "github"
+owner = "DevToys-app"
+repo = "DevToys"
+allow_prerelease = true
 
 [config.windows]
-d_position = [0, "assets", "name~win_x64.*\\.exe$", "browser_download_url"]
+d_position = "devtoys_win_x64.*exe$"
 
 [config.macos]
-d_position = [0, "assets", "name~devtoys_osx_arm64.*\\.zip$", "browser_download_url"]
+d_position = "devtoys_osx_arm64.*zip$"
 
 [config.linux]
-d_position = [0, "assets", "name~linux_x64.*\\.deb$", "browser_download_url"]
+d_position = "devtoys_linux_x64.*deb$"

@@ -9,8 +9,8 @@ platforms = ["windows"]
 type = "html_selector"
 url = "https://www.pcgeshi.com/"
 ua = "curl/8.0.0"
-baseurl = "https://crystalmark.info"
+baseurl = "https://down.pcgeshi.com"
 
 [config.windows]
 v_position = { selector = ".info span", regex = "版本：(.+)" }
-d_position = { selector = ".btn a", attr = "href" }
+d_position = { selector = ".btn a", attr = "data-download-path" }

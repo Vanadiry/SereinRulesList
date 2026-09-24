@@ -9,6 +9,7 @@ platforms = ["macos", "windows", "linux"]
 type = "github"
 owner = "HMCL-dev"
 repo = "HMCL"
+per_page = 10
 
 [config.macos]
 d_position = "jar"
