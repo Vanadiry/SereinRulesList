@@ -1,23 +1,24 @@
 [info]
-app_id = "FreeFileSync_Donation"
+app_id = "FreeFileSync_Donation_Private"
 name = "FreeFileSync [Donation Edition]"
-description = "FreeFileSync捐赠版（需要拥有捐赠Token）"
-official_website = "https://freefilesync.org/"
+description = "FreeFileSync捐赠版"
+official_website = "https://freefilesync.org/thank-you.php?tx={{token}}"
 platforms = ["windows", "macos", "linux"]
+# 需要填写 FreeFileSync_Donation_Private.token 规则变量
 
 [config]
-type = "regex"
-# url = "https://freefilesync.org/thank-you.php?tx=（在此处填入你的捐赠Token）"
+type = "html_selector"
+url = "https://freefilesync.org/thank-you.php?tx={{token}}"
 v_position = { selector = "a[href*='Donation_Edition'][href*='_Windows.zip']", attr = "href", regex = "FreeFileSync_(.*)_%5BDonation_Edition" }
 
 [config.windows]
 d_type = "html_selector"
-d_position = { selector = "a[href*='Donation_Edition'][href*='_Windows']", attr = "href" }
+d_position = { selector = "a[href*='Donation_Edition'][href*='_Windows.zip']", attr = "href" }
 
 [config.macos]
 d_type = "html_selector"
-d_position = { selector = "a[href*='Donation_Edition'][href*='_macOS']", attr = "href" }
+d_position = { selector = "a[href*='Donation_Edition'][href*='_macOS.zip']", attr = "href" }
 
 [config.linux]
 d_type = "html_selector"
-d_position = { selector = "a[href*='Donation_Edition'][href*='_Linux']", attr = "href" }
+d_position = { selector = "a[href*='Donation_Edition'][href*='_Linux.zip']", attr = "href" }
