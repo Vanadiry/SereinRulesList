@@ -8,6 +8,7 @@ platforms = ["macos", "windows", "linux"]
 [config]
 type = "html_selector"
 url = "https://www.blender.org/download/"
+download_method = "browser"
 
 [config.macos]
 d_position = { selector = "#macos a", attr = "href" }

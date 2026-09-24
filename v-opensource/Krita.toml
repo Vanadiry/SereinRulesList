@@ -10,6 +10,7 @@ type = "html_selector"
 url = "https://krita.org/zh-cn/download/"
 v_type = "regex"
 v_position = "下载 Krita ([^<]+)</h1>"
+download_method = "browser"
 
 [config.macos]
 d_position = { selector = "#macOS-download", attr = "href" }

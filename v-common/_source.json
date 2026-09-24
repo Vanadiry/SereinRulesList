@@ -2,7 +2,7 @@
     "source_id": "v-common",
     "type": "rules",
     "name": "v-常规",
-    "version": 19,
+    "version": 20,
     "description": "",
     "baseurl": "",
     "files": [

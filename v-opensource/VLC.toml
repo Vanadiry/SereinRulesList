@@ -8,6 +8,7 @@ platforms = ["macos", "windows"]
 [config]
 type = "html_selector"
 v_position = { selector = "#downloadVersion"}
+download_method = "browser"
 
 [config.macos]
 url = "https://www.videolan.org/vlc/download-macosx.html"
