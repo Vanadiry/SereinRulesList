@@ -2,11 +2,10 @@
     "source_id": "v-driver",
     "type": "rules",
     "name": "v-驱动程序",
-    "version": 2,
     "description": "",
     "baseurl": "",
-    "files": [
-        "Squirrel.toml",
-        "Weasel.toml"
-    ]
+    "files": {
+        "Squirrel.toml": "966ac2079522",
+        "Weasel.toml": "15c09a5c7a82"
+    }
 }

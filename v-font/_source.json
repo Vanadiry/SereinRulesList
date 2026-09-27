@@ -2,16 +2,15 @@
     "source_id": "v-font",
     "type": "rules",
     "name": "v-字体",
-    "version": 3,
     "description": "",
     "baseurl": "",
-    "files": [
-        "ArCiela.toml",
-        "FiraCode.toml",
-        "Hymmnos.toml",
-        "JetBrainsMono.toml",
-        "LxgwWenKai.toml",
-        "source-han-sans.toml",
-        "unifont.toml"
-    ]
+    "files": {
+        "ArCiela.toml": "cf84af004044",
+        "FiraCode.toml": "b1ce5ab6d0dc",
+        "Hymmnos.toml": "3d98ccf545a1",
+        "JetBrainsMono.toml": "3db6e9717dc2",
+        "LxgwWenKai.toml": "20a8fcd34349",
+        "source-han-sans.toml": "7e6f65ac83c6",
+        "unifont.toml": "9efb45692c5c"
+    }
 }

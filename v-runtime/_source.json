@@ -2,13 +2,12 @@
     "source_id": "v-runtime",
     "type": "rules",
     "name": "v-运行时",
-    "version": 3,
     "description": "",
     "baseurl": "",
-    "files": [
-        "dotnet6DRT.toml",
-        "dotnet8DRT.toml",
-        "dotnet9DRT.toml",
-        "dotnet10DRT.toml"
-    ]
+    "files": {
+        "dotnet6DRT.toml": "855c22650891",
+        "dotnet8DRT.toml": "c14e37cb3713",
+        "dotnet9DRT.toml": "7f1bb9e68e7e",
+        "dotnet10DRT.toml": "6a3ccd8a814d"
+    }
 }

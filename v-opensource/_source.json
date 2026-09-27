@@ -2,22 +2,21 @@
     "source_id": "v-opensource",
     "type": "rules",
     "name": "v-其他开源",
-    "version": 9,
     "description": "",
     "baseurl": "",
-    "files": [
-        "7zip.toml",
-        "Firefox.toml",
-        "FreeFileSync.toml",
-        "FreeFileSync_Donation.toml",
-        "GIMP.toml",
-        "GnuCash.toml",
-        "HTTrack.toml",
-        "Krita.toml",
-        "MediaInfo.toml",
-        "MKVToolNix.toml",
-        "OpenEUICC.toml",
-        "Thunderbird.toml",
-        "VLC.toml"
-    ]
+    "files": {
+        "7zip.toml": "5f8d005662e4",
+        "Firefox.toml": "cff79d2ddd42",
+        "FreeFileSync.toml": "4af4cd328d3b",
+        "FreeFileSync_Donation.toml": "e407bbf3e47c",
+        "GIMP.toml": "5c14d6d691e6",
+        "GnuCash.toml": "96273ee93995",
+        "HTTrack.toml": "3a56738788f6",
+        "Krita.toml": "c6eea6e36f25",
+        "MediaInfo.toml": "b5babd609dfc",
+        "MKVToolNix.toml": "1207ffc3d81c",
+        "OpenEUICC.toml": "fe04335005be",
+        "Thunderbird.toml": "425f6b942a7e",
+        "VLC.toml": "bc34404511dd"
+    }
 }
