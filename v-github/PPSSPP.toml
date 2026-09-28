@@ -5,21 +5,28 @@ description = "PSP模拟器"
 official_website = "https://github.com/hrydgard/ppsspp/releases"
 platforms = ["macos", "windows", "linux", "ios", "android"]
 
-[config]
+[config.macos]
 type = "github"
 owner = "hrydgard"
 repo = "ppsspp"
-
-[config.macos]
 d_position = "macOS"
 
 [config.windows]
+type = "github"
+owner = "hrydgard"
+repo = "ppsspp"
 d_position = "Windows-x64"
 
 [config.linux]
+type = "github"
+owner = "hrydgard"
+repo = "ppsspp"
 d_position = "x86_64.AppImage$"
 
 [config.ios]
+type = "github"
+owner = "hrydgard"
+repo = "ppsspp"
 d_position = "ipa"
 
 [config.android]
