@@ -1,7 +1,7 @@
 [info]
 app_id = "Python"
 name = "Python"
-description = "Python"
+description = "Python 语言运行环境"
 official_website = "https://www.python.org/downloads/"
 platforms = ["macos", "windows", "linux"]
 

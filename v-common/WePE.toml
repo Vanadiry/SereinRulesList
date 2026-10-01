@@ -1,7 +1,7 @@
 [info]
 app_id = "WePE"
 name = "微 PE 工具箱"
-description = "基于Windows PE的维护工具集"
+description = "基于 Windows PE 的维护工具集"
 official_website = "https://www.wepe.com.cn/download.html"
 platforms = ["windows"]
 

@@ -1,7 +1,7 @@
 [info]
 app_id = "OracleJDK27"
 name = "Oracle JDK 27"
-description = "Oracle Java SE Development Kit 27"
+description = "Java 开发工具包 27"
 official_website = "https://www.oracle.com/java/technologies/downloads/#java27"
 platforms = ["macos", "windows", "linux"]
 

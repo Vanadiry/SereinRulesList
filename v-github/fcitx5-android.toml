@@ -1,7 +1,7 @@
 [info]
 app_id = "fcitx5-android"
 name = "fcitx5-android"
-description = "输入法"
+description = "安卓开源输入法"
 official_website = "https://github.com/fcitx5-android/fcitx5-android/releases"
 platforms = ["android"]
 

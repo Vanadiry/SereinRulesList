@@ -1,7 +1,7 @@
 [info]
 app_id = "KekaExternalHelper"
 name = "KekaExternalHelper"
-description = "Keka Helper"
+description = "Keka 压缩工具辅助程序"
 official_website = "https://www.keka.io/en/"
 platforms = ["macos"]
 

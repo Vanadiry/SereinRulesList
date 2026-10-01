@@ -2,7 +2,7 @@
 app_id = "ExHyperV"
 status = ["暂停维护此规则"]
 name = "ExHyperV"
-description = "Hyper-V 管理器"
+description = "Hyper-V 图形化管理工具"
 official_website = "https://github.com/Justsenger/ExHyperV/releases"
 platforms = ["windows"]
 

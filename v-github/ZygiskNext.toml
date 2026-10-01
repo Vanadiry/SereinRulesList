@@ -1,7 +1,7 @@
 [info]
 app_id = "ZygiskNext"
 name = "ZygiskNext"
-description = "Root 相关"
+description = "KernelSU 的 Zygisk 实现"
 official_website = "https://github.com/LSPosed/ZygiskNext/releases"
 platforms = ["android"]
 

@@ -1,7 +1,7 @@
 [info]
 app_id = "Vector"
 name = "Vector"
-description = "Root 相关"
+description = "第三方 Xposed 框架"
 official_website = "https://github.com/JingMatrix/Vector/releases"
 platforms = ["android"]
 

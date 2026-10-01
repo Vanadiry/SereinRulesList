@@ -1,7 +1,7 @@
 [info]
 app_id = "TrickyStore"
 name = "TrickyStore"
-description = "Root 相关"
+description = "设备完整性校验绕过模块"
 official_website = "https://github.com/5ec1cff/TrickyStore/releases"
 platforms = ["android"]
 

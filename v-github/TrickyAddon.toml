@@ -1,7 +1,7 @@
 [info]
 app_id = "TrickyAddon"
 name = "Tricky-Addon"
-description = "Root 相关"
+description = "TrickyStore 配置工具"
 official_website = "https://github.com/KOWX712/Tricky-Addon-Update-Target-List/releases"
 platforms = ["android"]
 

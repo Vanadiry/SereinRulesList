@@ -1,7 +1,7 @@
 [info]
 app_id = "unifont"
 name = "unifont"
-description = "字体"
+description = "通用点阵字体"
 official_website = "https://www.unifoundry.com/unifont/index.html"
 platforms = ["font"]
 

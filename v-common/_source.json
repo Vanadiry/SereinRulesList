@@ -7,7 +7,7 @@
     "files": {
         "ABetterFinderRename.toml": "ef3df697e399",
         "Autoruns.toml": "2747f1dcf526",
-        "BetterDisplay.toml": "377ba2f2ec53",
+        "BetterDisplay.toml": "6f558c75f580",
         "BitComet.toml": "9f1ab666659e",
         "CDI.toml": "e0722016d6a6",
         "CDM.toml": "49092468f101",
@@ -28,7 +28,7 @@
         "GoogleChrome.toml": "c60827d3b7db",
         "Huorong.toml": "1516de3b0e84",
         "Mp3tag.toml": "aa426936a927",
-        "M3U8Downloader.toml": "8db1ca0f984e",
+        "M3U8Downloader.toml": "22e953836113",
         "MTManager.toml": "7937c538fc33",
         "NeatDownloadManager.toml": "f4a2e43b7bb0",
         "Obsidian.toml": "612db790c65b",
@@ -40,10 +40,10 @@
         "SpaceSniffer.toml": "d67b6bd0e989",
         "Steamcommunity302.toml": "3d965551c285",
         "Tailscale.toml": "828b6322a152",
-        "TBTool.toml": "743781c109ed",
+        "TBTool.toml": "36d4b785f020",
         "TinyTask.toml": "acb5cdcfe478",
         "UsbEAmHostsEditor.toml": "ca86fba5feae",
-        "WePE.toml": "61dff966ab31",
+        "WePE.toml": "c602ca10f875",
         "WinRAR.toml": "267f5808f9ef",
         "WizTree.toml": "c7244b66eea3"
     }

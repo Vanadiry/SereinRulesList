@@ -1,7 +1,7 @@
 [info]
 app_id = "WattToolkit"
 name = "Watt Toolkit"
-description = ""
+description = "Steam 多功能工具箱"
 official_website = "https://github.com/BeyondDimension/SteamTools/releases"
 platforms = ["macos", "windows", "linux"]
 
