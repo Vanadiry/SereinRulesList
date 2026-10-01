@@ -2,12 +2,12 @@
 app_id = "MTManager"
 name = "MT管理器"
 description = "APK 修改与文件管理工具"
-official_website = "https://mt2.cn/download/"
+official_website = "https://mt.cc/download/"
 platforms = ["android"]
 
 [config]
 type = "html_selector"
-url = "https://mt2.cn/download/"
+url = "https://mt.cc/download/"
 
 [config.android]
 v_position = { selector = ".content__default", regex = "版本名：v([0-9.]+)" }

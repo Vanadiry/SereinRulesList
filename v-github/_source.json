@@ -66,7 +66,7 @@
         "pikapika.toml": "7e2bcce5baf2",
         "PiliPlus.toml": "5e86e1d34acb",
         "PPSSPP.toml": "71e7ab57c092",
-        "ProxyPin.toml": "f2b0acd74a8e",
+        "ProxyPin.toml": "7a04e861f6b4",
         "rufus.toml": "331863e6bc9d",
         "Ryubing.toml": "2119d56c66fa",
         "RyubingFK.toml": "b2288c760984",
@@ -85,6 +85,6 @@
         "VideoSubtitleExtractor.toml": "5085da2a1729",
         "waifu2x-caffe.toml": "fb2d8415b9f2",
         "WattToolkit.toml": "56878cdf8e20",
-        "ZygiskNext.toml": "2ae78fa36a09"
+        "ZygiskNext.toml": "3957f520a3a8"
     }
 }

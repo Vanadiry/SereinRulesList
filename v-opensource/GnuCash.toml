@@ -9,6 +9,7 @@ platforms = ["windows", "macos"]
 type = "regex"
 url = "https://gnucash.org/download.phtml"
 v_position = "Stable release \\((\\d+\\.\\d+)\\)"
+download_method = "browser"
 
 [config.windows]
 d_position = "href=\"(https://sourceforge[^\"]*\\.setup\\.exe)\""
