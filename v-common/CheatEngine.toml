@@ -1,6 +1,6 @@
 [info]
 app_id = "CheatEngine"
-name = "Cheat Engine (Online)"
+name = "Cheat Engine"
 description = "内存修改工具"
 official_website = "https://cheatengine.org/downloads.php"
 platforms = ["windows"]

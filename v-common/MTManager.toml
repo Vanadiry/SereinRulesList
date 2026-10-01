@@ -1,6 +1,6 @@
 [info]
 app_id = "MTManager"
-name = "MT管理器"
+name = "MT 管理器"
 description = "APK 修改与文件管理工具"
 official_website = "https://mt.cc/download/"
 platforms = ["android"]

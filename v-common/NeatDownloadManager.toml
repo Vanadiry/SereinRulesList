@@ -2,7 +2,7 @@
 app_id = "NeatDownloadManager"
 name = "Neat Download Manager"
 description = "下载管理器"
-official_website = "https://one.one.one.one/"
+official_website = "https://www.neatdownloadmanager.com/"
 platforms = ["macos", "windows"]
 
 [config]

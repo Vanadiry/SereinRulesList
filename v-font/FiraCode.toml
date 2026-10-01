@@ -1,6 +1,6 @@
 [info]
 app_id = "FiraCode"
-name = "FiraCode"
+name = "Fira Code"
 description = "英文字体"
 official_website = "https://github.com/tonsky/FiraCode/releases"
 platforms = ["font"]

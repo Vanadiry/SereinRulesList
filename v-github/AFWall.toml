@@ -1,6 +1,6 @@
 [info]
 app_id = "AFWall"
-name = "AFWall"
+name = "AFWall+"
 description = "安卓防火墙"
 official_website = "https://github.com/ukanth/afwall/releases"
 platforms = ["android"]

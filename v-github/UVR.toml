@@ -1,6 +1,6 @@
 [info]
 app_id = "UVR"
-name = "UVR"
+name = "Ultimate Vocal Remover"
 description = "分离歌曲音轨"
 official_website = "https://github.com/Anjok07/ultimatevocalremovergui/releases"
 platforms = ["windows", "macos"]

@@ -1,6 +1,6 @@
 [info]
 app_id = "JetBrainsMono"
-name = "JetBrainsMono"
+name = "JetBrains Mono"
 description = "等宽编程字体"
 official_website = "https://github.com/JetBrains/JetBrainsMono/releases"
 platforms = ["font"]
