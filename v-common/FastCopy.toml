@@ -1,0 +1,13 @@
+[info]
+app_id = "FastCopy"
+name = "FastCopy"
+description = "Windows 高速文件复制与备份工具"
+official_website = "https://fastcopy.jp/"
+platforms = ["windows"]
+
+[config]
+type = "regex"
+baseurl = "https://fastcopy.jp"
+url = "https://fastcopy.jp/"
+v_position = "Download v([\\d.]+)"
+d_position = "/archive/(FastCopy[\\d.]+_installer\\.exe)"
