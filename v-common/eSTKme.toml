@@ -12,10 +12,10 @@ baseurl = "https://oss.estk.me/management_app/"
 v_position = ["version"]
 
 [config.windows]
-d_position = ["download", "windows"]
+d_position = ["download", "windows", "primary"]
 
 [config.linux]
 d_position = ["download", "linux"]
 
 [config.android]
-d_position = ["download", "android"]
+d_position = ["download", "android", "primary"]
