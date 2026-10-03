@@ -8,6 +8,7 @@ platforms = ["windows", "macos"]
 [config]
 type = "regex"
 url = "https://www.image-line.com/fl-studio/download"
+download_method = "downloader"
 
 [config.windows]
 v_position = "versionInfo\\?\\.pc\\?\\.version \\|\\| '([0-9.]+)'"
