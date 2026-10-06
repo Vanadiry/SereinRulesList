@@ -11,7 +11,7 @@ owner = "TypesettingTools"
 repo = "Aegisub"
 
 [config.macos]
-d_position = "dmg"
+d_position = "arm64.dmg"
 
 [config.windows]
-d_position = "exe"
+d_position = "x64.exe"
