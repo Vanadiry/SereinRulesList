@@ -1,0 +1,20 @@
+[info]
+app_id = "OpenCode"
+name = "OpenCode"
+description = "AI Agent"
+official_website = "https://opencode.ai/"
+platforms = ["windows", "macos", "linux"]
+
+[config]
+type = "json"
+url = "https://opencode.ai/update/api/latest/desktop/opencode/"
+v_position = ["version"]
+
+[config.windows]
+d_position = ["metadata", "files", "opencode-desktop-win-x64.exe", "url"]
+
+[config.macos]
+d_position = ["metadata", "files", "opencode-desktop-mac-arm64.dmg", "url"]
+
+[config.linux]
+d_position = ["metadata", "files", "opencode-desktop-linux-x86_64.AppImage", "url"]
