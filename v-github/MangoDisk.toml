@@ -1,0 +1,20 @@
+[info]
+app_id = "MangoDisk"
+name = "MangoDisk"
+description = "磁盘清理与空间分析工具"
+official_website = "https://github.com/harry0703/MangoDisk/releases"
+platforms = ["windows", "macos", "linux"]
+
+[config]
+type = "github"
+owner = "harry0703"
+repo = "MangoDisk"
+
+[config.windows]
+d_position = "windows\\.exe$"
+
+[config.macos]
+d_position = "macos\\.dmg$"
+
+[config.linux]
+d_position = "linux-x64\\.AppImage$"
