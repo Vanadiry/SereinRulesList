@@ -2,7 +2,7 @@
 app_id = "Ice"
 name = "Ice"
 description = "macOS菜单栏管理工具"
-official_website = "https://github.com/jordanbaird/Ice/releases/"
+official_website = "https://github.com/jordanbaird/Ice/releases"
 platforms = ["macos"]
 
 [config]

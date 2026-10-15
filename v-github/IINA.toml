@@ -2,7 +2,7 @@
 app_id = "IINA"
 name = "IINA"
 description = "macOS视频播放器"
-official_website = "https://github.com/iina/iina/releases/"
+official_website = "https://github.com/iina/iina/releases"
 platforms = ["macos"]
 
 [config]

@@ -2,7 +2,7 @@
 app_id = "MusicPlayer2"
 name = "MusicPlayer2"
 description = "能显示字幕的音乐播放器"
-official_website = "https://github.com/zhongyang219/MusicPlayer2/releases/"
+official_website = "https://github.com/zhongyang219/MusicPlayer2/releases"
 platforms = ["windows"]
 
 [config]

@@ -2,7 +2,7 @@
 app_id = "czkawka"
 name = "czkawka"
 description = "文件去重工具"
-official_website = "https://github.com/qarmin/czkawka/releases/"
+official_website = "https://github.com/qarmin/czkawka/releases"
 platforms = ["macos", "windows", "linux"]
 
 [config]

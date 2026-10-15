@@ -2,7 +2,7 @@
 app_id = "VSCodium"
 name = "VSCodium"
 description = "无追踪的 VS Code"
-official_website = "https://github.com/VSCodium/vscodium/releases/"
+official_website = "https://github.com/VSCodium/vscodium/releases"
 platforms = ["macos", "windows", "linux"]
 
 [config]

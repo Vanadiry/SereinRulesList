@@ -10,7 +10,7 @@
         "Archaeology.toml": "d768ada5ad61",
         "ArduinoIDE.toml": "d1ab76a4697b",
         "Blender.toml": "614c561e55be",
-        "Bruno.toml": "21f129e8777c",
+        "Bruno.toml": "95e08f0a6791",
         "Chromium.toml": "6341f94f63ec",
         "Cyberduck.toml": "4aaeb9c439a1",
         "DevToys.toml": "96c5d1056cdc",
@@ -33,7 +33,7 @@
         "RenPy.toml": "98b658897d9c",
         "SourceGit.toml": "2e713012a4f8",
         "SuspiciousPackage.toml": "aeee61e7b87e",
-        "VSCodium.toml": "c74e44015094",
+        "VSCodium.toml": "66b723388d35",
         "Wireshark.toml": "06f3bbd4b9ff"
     }
 }

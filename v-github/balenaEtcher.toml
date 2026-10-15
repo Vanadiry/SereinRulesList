@@ -2,7 +2,7 @@
 app_id = "balenaEtcher"
 name = "balenaEtcher"
 description = "启动U盘烧写工具"
-official_website = "https://github.com/balena-io/etcher/releases/"
+official_website = "https://github.com/balena-io/etcher/releases"
 platforms = ["windows", "macos", "linux"]
 
 [config]

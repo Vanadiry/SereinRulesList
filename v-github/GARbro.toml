@@ -2,7 +2,7 @@
 app_id = "GARbro"
 name = "GARbro"
 description = "视觉小说资源解包工具"
-official_website = "https://github.com/morkt/GARbro/releases/"
+official_website = "https://github.com/morkt/GARbro/releases"
 platforms = ["windows"]
 
 [config]

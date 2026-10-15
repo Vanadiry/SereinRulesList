@@ -2,7 +2,7 @@
 app_id = "Gyroflow"
 name = "Gyroflow"
 description = "视频后期陀螺仪增稳"
-official_website = "https://github.com/gyroflow/gyroflow/releases/"
+official_website = "https://github.com/gyroflow/gyroflow/releases"
 platforms = ["macos", "windows", "linux", "android"]
 
 [config]

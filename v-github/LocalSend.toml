@@ -2,7 +2,7 @@
 app_id = "LocalSend"
 name = "LocalSend"
 description = "局域网文件传输工具"
-official_website = "https://github.com/localsend/localsend/releases/"
+official_website = "https://github.com/localsend/localsend/releases"
 platforms = ["macos", "windows", "linux", "android"]
 
 [config]

@@ -2,7 +2,7 @@
 app_id = "Bruno"
 name = "Bruno"
 description = "API 调试发包客户端"
-official_website = "https://github.com/usebruno/bruno/releases/"
+official_website = "https://github.com/usebruno/bruno/releases"
 platforms = ["macos", "windows", "linux"]
 
 [config]

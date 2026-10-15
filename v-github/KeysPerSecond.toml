@@ -2,7 +2,7 @@
 app_id = "KeysPerSecond"
 name = "KeysPerSecond"
 description = "显示键盘按下的内容和速度的工具"
-official_website = "https://github.com/RoanH/KeysPerSecond/releases/"
+official_website = "https://github.com/RoanH/KeysPerSecond/releases"
 platforms = ["windows"]
 
 [config]

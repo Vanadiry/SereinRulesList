@@ -2,7 +2,7 @@
 app_id = "MCASelector"
 name = "MCASelector"
 description = "Minecraft区块编辑工具"
-official_website = "https://github.com/Querz/mcaselector/releases/"
+official_website = "https://github.com/Querz/mcaselector/releases"
 platforms = ["windows", "macos", "linux"]
 
 [config]
