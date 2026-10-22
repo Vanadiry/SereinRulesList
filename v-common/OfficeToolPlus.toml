@@ -8,6 +8,6 @@ platforms = ["windows"]
 [config]
 type = "regex"
 url = "https://otp.landian.vip/zh-cn/download.html"
-v_position = "最新版本：(.*) "
+v_position = "版本号：([\\d.]+)"
 d_type = "direct"
-d_url = "https://otp.landian.vip/redirect/download.php?type=runtime&arch=x64"
+d_url = "https://otp.landian.vip/redirect/download.php?site=cloudflare&type=runtime&arch=x64"

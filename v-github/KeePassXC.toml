@@ -14,7 +14,7 @@ repo = "keepassxc"
 d_position = "arm64.dmg$"
 
 [config.windows]
-d_position = "Win64.msi$"
+d_position = "x64.msi$"
 
 [config.linux]
 d_position = "x86_64.AppImage$"
