@@ -1,0 +1,17 @@
+[info]
+app_id = "Bangumi"
+name = "Bangumi"
+description = "番组计划第三方客户端"
+official_website = "https://github.com/czy0729/Bangumi/releases"
+platforms = ["android", "ios"]
+
+[config]
+type = "github"
+owner = "czy0729"
+repo = "Bangumi"
+
+[config.android]
+d_position = "\\.apk$"
+
+[config.ios]
+d_position = "\\.ipa$"

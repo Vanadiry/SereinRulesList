@@ -1,0 +1,26 @@
+[info]
+app_id = "Kazumi"
+name = "Kazumi"
+description = "番剧采集与在线播放工具"
+official_website = "https://kazumi.app/"
+platforms = ["windows", "macos", "linux", "android", "ios"]
+
+[config]
+type = "github"
+owner = "Predidit"
+repo = "Kazumi"
+
+[config.windows]
+d_position = "\\.msix$"
+
+[config.macos]
+d_position = "\\.dmg$"
+
+[config.linux]
+d_position = "amd64\\.deb$"
+
+[config.android]
+d_position = "\\.apk$"
+
+[config.ios]
+d_position = "\\.ipa$"
