@@ -5,6 +5,7 @@
     "description": "",
     "baseurl": "",
     "files": {
-        "OracleJDK26.toml": "318518798f44"
+        "OracleJDK26.toml": "318518798f44",
+        "Ryubing.toml": "23177ca4b724"
     }
 }

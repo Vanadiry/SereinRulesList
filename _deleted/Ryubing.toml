@@ -4,6 +4,7 @@ name = "Ryubing"
 description = "Switch游戏模拟器"
 official_website = "https://git.ryujinx.app/projects/Ryubing/releases"
 platforms = ["macos", "windows", "linux"]
+status = ["上游长期无法访问，且未找到更好的类似替代品，将移除此规则", "removed"]
 
 [config]
 type = "json"
