@@ -9,6 +9,7 @@ platforms = ["windows"]
 type = "github"
 owner = "CodingWonders"
 repo = "DISMTools"
+per_page = 10
 
 [config.windows]
 d_position = "exe"

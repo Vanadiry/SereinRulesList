@@ -9,6 +9,7 @@ platforms = ["macos", "windows", "linux", "ios", "android"]
 type = "github"
 owner = "ppy"
 repo = "osu"
+per_page = 10
 
 [config.macos]
 d_position = "Apple.Silicon"
