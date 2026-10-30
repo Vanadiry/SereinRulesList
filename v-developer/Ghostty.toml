@@ -1,0 +1,15 @@
+[info]
+app_id = "Ghostty"
+name = "Ghostty"
+description = "Ghostty 终端"
+official_website = "https://ghostty.org/download"
+platforms = ["macos"]
+
+[config]
+type = "json"
+url = "https://api.github.com/repos/ghostty-org/ghostty/tags?per_page=1"
+v_position = [0, "name"]
+
+[config.macos]
+d_type = "direct"
+d_url = "https://release.files.ghostty.org/{version}/Ghostty.dmg"
