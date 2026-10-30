@@ -11,4 +11,4 @@ owner = "lxgw"
 repo = "LxgwWenKai"
 
 [config.font]
-d_position = "zip"
+d_position = '^lxgw-wenkai-v.*\.zip$'

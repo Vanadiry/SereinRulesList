@@ -11,4 +11,4 @@ owner = "adobe-fonts"
 repo = "source-han-sans"
 
 [config.font]
-d_position = "02"
+d_position = 'SourceHanSansSC\.zip$'

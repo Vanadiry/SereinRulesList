@@ -1,0 +1,14 @@
+[info]
+app_id = "MapleMono"
+name = "Maple Mono"
+description = "中英 2:1 等宽字体"
+official_website = "https://github.com/subframe7536/maple-font/releases"
+platforms = ["font"]
+
+[config]
+type = "github"
+owner = "subframe7536"
+repo = "maple-font"
+
+[config.font]
+d_position = '^MapleMono-NF-CN-unhinted\.zip$'
