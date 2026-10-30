@@ -9,6 +9,7 @@ platforms = ["font"]
 type = "github"
 owner = "subframe7536"
 repo = "maple-font"
+per_page = 5
 
 [config.font]
 d_position = '^MapleMono-NF-CN-unhinted\.zip$'
