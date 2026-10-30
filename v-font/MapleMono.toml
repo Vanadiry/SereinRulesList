@@ -6,10 +6,9 @@ official_website = "https://github.com/subframe7536/maple-font/releases"
 platforms = ["font"]
 
 [config]
-type = "github"
-owner = "subframe7536"
-repo = "maple-font"
-per_page = 5
+type = "json"
+url = "https://api.github.com/repos/subframe7536/maple-font/releases/latest"
 
 [config.font]
-d_position = '^MapleMono-NF-CN-unhinted\.zip$'
+v_position = ["tag_name"]
+d_position = ["assets", 'name~^MapleMono-NF-CN-unhinted\.zip$', "browser_download_url"]
