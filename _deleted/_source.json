@@ -5,6 +5,7 @@
     "description": "",
     "baseurl": "",
     "files": {
+        "M3U8Downloader.toml": "c39fc975c7da",
         "OracleJDK26.toml": "318518798f44",
         "Ryubing.toml": "23177ca4b724"
     }
