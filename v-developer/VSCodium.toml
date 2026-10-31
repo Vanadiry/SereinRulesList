@@ -17,4 +17,4 @@ d_position = "arm64.*dmg$"
 d_position = "VSCodiumUserSetup-x64.*exe$"
 
 [config.linux]
-d_position = "AppImage$"
+d_position = "x86_64\\.AppImage$"

@@ -21,4 +21,4 @@ d_position = "arm64\\.dmg$"
 d_position = "win-x64\\.zip$"
 
 [config.linux]
-d_position = "x86_64.*rpm$|amd64.*deb$|x86_64.*AppImage$"
+d_position = "x86_64\\.AppImage$"

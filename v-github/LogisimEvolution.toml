@@ -17,4 +17,4 @@ d_position = "aarch64\\.dmg$"
 d_position = "amd64\\.msi$"
 
 [config.linux]
-d_position = "\\.rpm$|\\.deb$|\\.jar$"
+d_position = "\\.rpm$|\\.deb$"

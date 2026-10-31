@@ -17,7 +17,7 @@ d_position = "\\.dmg$"
 d_position = "\\.exe$"
 
 [config.linux]
-d_position = "Obsidian-\\d+(?:\\.\\d+)*\\.AppImage$|amd64\\.deb$"
+d_position = "Obsidian-\\d+(?:\\.\\d+)*\\.AppImage$"
 
 [config.android]
 d_position = "\\.apk$"
