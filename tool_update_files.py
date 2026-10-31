@@ -10,7 +10,7 @@ CHUNK = 65536
 
 SOURCE_FILE = "_source.json"
 
-# sort_key 用它把数字段切出来
+# sort_key 用它把数字段切开
 DIGIT_RUN_RE = re.compile(r"(\d+)")
 
 
@@ -23,7 +23,7 @@ def rule_version(path):
     return h.hexdigest()[:HASH_LEN]
 
 
-# 遍历出所有 _source.json，跳过 . 开头的目录，结果按路径排序
+# 遍历所有 _source.json，跳过 . 开头的目录，结果按路径排序
 def find_sources(root):
     out = []
     for dirpath, dirnames, filenames in os.walk(root):
@@ -53,7 +53,7 @@ def find_rules(rel):
     return sorted(out, key=sort_key)
 
 
-# 目录下全部含 _source.json 的子目录，返回 <子目录>/_source.json，已排好序
+# 目录下全部含 _source.json 的子目录，返回各自的 _source.json 路径，已排好序
 def find_subdirs(rel):
     out = []
     for name in os.listdir(rel):
@@ -91,7 +91,7 @@ def diff_files(old, new):
         if n not in old_map:
             lines.append(f"+ {n}")
         elif old_map[n] != new_map[n]:
-            lines.append(f"~ {n} 版本 {old_map[n]} -> {new_map[n]}")
+            lines.append(f"~ {n} 版本 {old_map[n]} 变为 {new_map[n]}")
     lines += [f"- {n}" for n in old_keys if n not in new_map]
     # 次序不同也要报出来，否则重排会静默发生
     # 只比两边共有的那些，纯新增/移除带来的顺延不算重排
@@ -100,8 +100,8 @@ def diff_files(old, new):
     return lines
 
 
-# 处理一个 _source.json，返回 (变动说明列表, files 条数)，无变动时列表为 None
-# 默认模式保持原顺序只刷版本，--all 才按磁盘重建；遗留的顶层 version 字段会被丢掉
+# 处理一个 _source.json，返回变动说明与 files 条数，无变动时说明为 None
+# 默认模式保持原顺序只刷版本，--all 才按磁盘重建；遗留的顶层 version 字段会被丢弃
 def process(path, rebuild):
     with open(path, encoding="utf-8") as f:
         d = json.load(f)
@@ -109,13 +109,17 @@ def process(path, rebuild):
     new = {k: v for k, v in d.items() if k != "version"}
 
     if d.get("type", "rules") == "list":
-        # list 型的 files 为规则子源 marker 数组，不含版本，默认模式无事可做
+        # list 型的 files 为规则子源路径数组，不含版本，默认模式无事可做
         if not rebuild:
             return None, len(old or [])
         new["files"] = find_subdirs(os.path.dirname(path))
     else:
-        names = find_rules(os.path.dirname(path)) if rebuild else list(dict.fromkeys(old))
-        new["files"] = {n: rule_version(os.path.join(os.path.dirname(path), n)) for n in names}
+        names = (
+            find_rules(os.path.dirname(path)) if rebuild else list(dict.fromkeys(old))
+        )
+        new["files"] = {
+            n: rule_version(os.path.join(os.path.dirname(path), n)) for n in names
+        }
 
     if same_json(new, d):
         return None, len(new["files"])
@@ -129,7 +133,7 @@ def main():
     ap.add_argument(
         "--all",
         action="store_true",
-        help="按磁盘上的规则文件完整重建 files，而非只刷新已列出的规则表版本",
+        help="按磁盘上的规则文件完整重建 files，默认模式只刷新已列出的规则表版本",
     )
     args = ap.parse_args()
 
