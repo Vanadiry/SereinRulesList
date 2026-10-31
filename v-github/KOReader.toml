@@ -11,4 +11,4 @@ owner = "koreader"
 repo = "koreader"
 
 [config.android]
-d_position = "arm64.*apk"
+d_position = "arm64.*apk$"

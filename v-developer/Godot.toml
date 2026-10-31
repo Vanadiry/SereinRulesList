@@ -11,10 +11,10 @@ owner = "godotengine"
 repo = "godot"
 
 [config.macos]
-d_position = "stable_macos.universal"
+d_position = "stable_macos\\.universal"
 
 [config.windows]
-d_position = "win64.exe"
+d_position = "win64\\.exe(\\.zip)?$"
 
 [config.linux]
-d_position = "linux.x86_64"
+d_position = "linux\\.x86_64"

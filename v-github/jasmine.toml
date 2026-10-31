@@ -11,16 +11,16 @@ owner = "ComicSparks"
 repo = "jasmine"
 
 [config.macos]
-d_position = "dmg"
+d_position = "\\.dmg$"
 
 [config.windows]
 d_position = "windows"
 
 [config.linux]
-d_position = "AppImage"
+d_position = "\\.AppImage$"
 
 [config.ios]
-d_position = "ipa"
+d_position = "\\.ipa$"
 
 [config.android]
-d_position = "arm64.*apk"
+d_position = "arm64.*apk$"

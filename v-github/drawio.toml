@@ -14,7 +14,7 @@ repo = "drawio-desktop"
 d_position = "arm64-.*dmg$"
 
 [config.windows]
-d_position = "windows-installer.exe$"
+d_position = "windows-installer\\.exe$"
 
 [config.linux]
 d_position = "x86_64.*rpm$|amd64.*deb$|x86_64.*AppImage$"

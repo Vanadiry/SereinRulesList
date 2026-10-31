@@ -11,4 +11,4 @@ type = "html_selector"
 [config.macos]
 url = "https://www.keka.io/en/"
 d_position = { selector = "#helper_download", attr = "href" }
-v_position = { selector = "#helper_download", regex = "v(\\d+\\.\\d+\\.\\d+)" }
+v_position = { selector = "#helper_download", regex = "v(\\d+(?:\\.\\d+)*)" }

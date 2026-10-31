@@ -11,13 +11,13 @@ owner = "gyroflow"
 repo = "gyroflow"
 
 [config.macos]
-d_position = "dmg"
+d_position = "\\.dmg$"
 
 [config.windows]
 d_position = "windows64"
 
 [config.linux]
-d_position = "AppImage"
+d_position = "\\.AppImage$"
 
 [config.android]
-d_position = "apk"
+d_position = "\\.apk$"

@@ -8,7 +8,7 @@ platforms = ["windows"]
 [config]
 type = "html_selector"
 url = "https://www.diskgenius.cn/download.php"
-v_position = { selector = ".logmenu .cur", regex = "V([0-9]+\\.[0-9]+\\.[0-9]+)" }
+v_position = { selector = ".logmenu .cur", regex = "V(\\d+(?:\\.\\d+)*)" }
 
 [config.windows]
 d_position = { selector = "a[href*='DG_64']", attr = "href" }

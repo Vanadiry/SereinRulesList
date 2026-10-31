@@ -11,4 +11,4 @@ owner = "pbatard"
 repo = "rufus"
 
 [config.windows]
-d_position = "p.exe"
+d_position = "p\\.exe$"

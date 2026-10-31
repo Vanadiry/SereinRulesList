@@ -9,5 +9,5 @@ platforms = ["font"]
 type = "html_selector"
 url = "https://hymmnoserver.uguu.ca/"
 baseurl = "https://hymmnoserver.uguu.ca/"
-v_position = { selector = "a[href*='ar-ciela_compartment.ttf']", regex = "TrueType Font \\(v([0-9.]+)\\)" }
+v_position = { selector = "a[href*='ar-ciela_compartment.ttf']", regex = "TrueType Font \\(v(\\d+(?:\\.\\d+)*)\\)" }
 d_position = { selector = "a[href*='ar-ciela_compartment.ttf']", attr = "href" }

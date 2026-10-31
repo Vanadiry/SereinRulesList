@@ -8,7 +8,7 @@ platforms = ["windows", "macos", "linux"]
 [config]
 type = "html_selector"
 url = "https://www.dogfight360.com/blog/18682/"
-v_position = { selector = "h1.article-title", regex = "Ver\\.(.*)" }
+v_position = { selector = "h1.article-title", regex = "Ver\\.(\\d+(?:\\.\\d+)*)" }
 
 [config.windows]
 d_type = "regex"

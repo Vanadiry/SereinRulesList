@@ -10,9 +10,9 @@ type = "html_selector"
 url = "https://www.avermedia.com/uk/support/download"
 
 [config.windows]
-v_position = { selector = ".RECentral-Windows ._tags_contentIterm__left", regex = "RECentral\\d* v([0-9.]+)" }
+v_position = { selector = ".RECentral-Windows ._tags_contentIterm__left", regex = "RECentral\\d* v(\\d+(?:\\.\\d+)*)" }
 d_position = { selector = ".RECentral-Windows ._support_content__btn", attr = "href" }
 
 [config.macos]
-v_position = { selector = ".recentral-macos ._tags_contentIterm__left", regex = "RECentralExpress v([0-9.]+)" }
+v_position = { selector = ".recentral-macos ._tags_contentIterm__left", regex = "RECentralExpress v(\\d+(?:\\.\\d+)*)" }
 d_position = { selector = ".recentral-macos ._support_content__btn", attr = "href" }

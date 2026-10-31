@@ -8,7 +8,7 @@ platforms = ["windows"]
 [config]
 type = "regex"
 url = "https://geekuninstaller.com/download"
-v_position = "<b>(\\d+\\.\\d+\\.\\d+\\.\\d+)</b>"
+v_position = "<b>(\\d+(?:\\.\\d+)*)</b>"
 baseurl = "https://geekuninstaller.com"
 
 [config.windows]

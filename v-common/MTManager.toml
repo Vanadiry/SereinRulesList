@@ -10,5 +10,5 @@ type = "html_selector"
 url = "https://mt.cc/download/"
 
 [config.android]
-v_position = { selector = ".content__default", regex = "版本名：v([0-9.]+)" }
+v_position = { selector = ".content__default", regex = "版本名：v(\\d+(?:\\.\\d+)*)" }
 d_position = { selector = "a[href*='pan.mt2.cn/apk/']", attr = "href" }

@@ -8,7 +8,7 @@ platforms = ["macos", "windows", "linux"]
 [config]
 type = "json"
 url = "https://nodejs.org/dist/index.json"
-v_position = ['version~^v\d+\.\d+\.\d+$', "version"]
+v_position = ['version~^v\d+(?:\.\d+)*$', "version"]
 
 [config.macos]
 d_type = "direct"

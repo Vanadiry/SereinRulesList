@@ -11,4 +11,4 @@ owner = "zbezj"
 repo = "HEU_KMS_Activator"
 
 [config.windows]
-d_position = "rar"
+d_position = "\\.rar$"

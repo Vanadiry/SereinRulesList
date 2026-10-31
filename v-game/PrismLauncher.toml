@@ -11,10 +11,10 @@ owner = "PrismLauncher"
 repo = "PrismLauncher"
 
 [config.macos]
-d_position = "dmg"
+d_position = "\\.dmg$"
 
 [config.windows]
 d_position = "MSVC-Setup"
 
 [config.linux]
-d_position = "86_64.AppImage$"
+d_position = "86_64\\.AppImage$"

@@ -11,5 +11,5 @@ url = "https://dotnet.microsoft.com/zh-cn/download/dotnet/6.0"
 baseurl = "https://dotnet.microsoft.com"
 
 [config.windows]
-v_position = "桌面运行时 (6\\.\\d+\\.\\d+)"
+v_position = "桌面运行时 (6\\.\\d+(?:\\.\\d+)*)"
 d_position = "href=\"(/zh-cn/download/dotnet/thank-you/runtime-desktop-[^\"]+-windows-x64-installer)\""

@@ -12,16 +12,16 @@ repo = "osu"
 per_page = 10
 
 [config.macos]
-d_position = "Apple.Silicon"
+d_position = "Apple\\.Silicon"
 
 [config.windows]
-d_position = "exe"
+d_position = "\\.exe$"
 
 [config.linux]
-d_position = "AppImage"
+d_position = "\\.AppImage$"
 
 [config.ios]
-d_position = "ipa"
+d_position = "\\.ipa$"
 
 [config.android]
-d_position = "apk"
+d_position = "\\.apk$"

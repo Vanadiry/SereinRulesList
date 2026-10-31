@@ -11,4 +11,4 @@ owner = "Gpower2"
 repo = "gMKVExtractGUI"
 
 [config.windows]
-d_position = "zip"
+d_position = "\\.zip$"

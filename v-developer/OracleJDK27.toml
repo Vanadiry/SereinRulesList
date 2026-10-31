@@ -8,7 +8,7 @@ platforms = ["macos", "windows", "linux"]
 [config]
 type = "html_selector"
 url = "https://www.oracle.com/java/technologies/downloads/"
-v_position = { selector = "#java27 h3", regex = "Java SE Development Kit ([0-9.]+)" }
+v_position = { selector = "#java27 h3", regex = "Java SE Development Kit (\\d+(?:\\.\\d+)*)" }
 
 [config.macos]
 d_position = { selector = "a[href$='jdk-27_macos-aarch64_bin.dmg']", attr = "href" }

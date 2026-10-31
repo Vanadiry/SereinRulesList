@@ -8,7 +8,7 @@ platforms = ["windows"]
 [config]
 type = "html_selector"
 url = "https://www.httrack.com/page/2/en/index.html"
-v_position = { selector = "a[href*='httrack_x64']", regex = "x64-(.*).exe" }
+v_position = { selector = "a[href*='httrack_x64']", regex = "x64-(.*)\\.exe" }
 
 [config.windows]
 d_position = { selector = "a[href*='httrack_x64']", attr = "href" }

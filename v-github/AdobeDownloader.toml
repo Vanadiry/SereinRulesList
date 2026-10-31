@@ -11,4 +11,4 @@ owner = "X1a0He"
 repo = "Adobe-Downloader"
 
 [config.macos]
-d_position = "dmg"
+d_position = "\\.dmg$"

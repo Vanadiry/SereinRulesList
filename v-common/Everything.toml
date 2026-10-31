@@ -11,5 +11,5 @@ url = "https://www.voidtools.com/zh-cn/downloads/"
 baseurl = "https://www.voidtools.com"
 
 [config.windows]
-v_position = { selector = "h2#dl", regex = "下载 Everything (\\d+\\.\\d+\\.\\d+\\.\\d+)" }
+v_position = { selector = "h2#dl", regex = "下载 Everything (\\d+(?:\\.\\d+)*)" }
 d_position = { selector = "a.button[href*='x64-Setup']", attr = "href" }

@@ -5,9 +5,9 @@
     "description": "",
     "baseurl": "",
     "files": {
-        "dotnet6DRT.toml": "855c22650891",
-        "dotnet8DRT.toml": "c14e37cb3713",
-        "dotnet9DRT.toml": "7f1bb9e68e7e",
-        "dotnet10DRT.toml": "6a3ccd8a814d"
+        "dotnet6DRT.toml": "b9a71885800b",
+        "dotnet8DRT.toml": "5c015305f394",
+        "dotnet9DRT.toml": "2ebc7e7ed8ad",
+        "dotnet10DRT.toml": "6b279de531f9"
     }
 }

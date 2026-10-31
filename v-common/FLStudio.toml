@@ -11,11 +11,11 @@ url = "https://www.image-line.com/fl-studio/download"
 download_method = "downloader"
 
 [config.windows]
-v_position = "versionInfo\\?\\.pc\\?\\.version \\|\\| '([0-9.]+)'"
+v_position = "versionInfo\\?\\.pc\\?\\.version \\|\\| '(\\d+(?:\\.\\d+)*)'"
 d_type = "direct"
 d_url = "https://support.image-line.com/redirect/flstudio_win_installer"
 
 [config.macos]
-v_position = "versionInfo\\?\\.mac\\?\\.version \\|\\| '([0-9.]+)'"
+v_position = "versionInfo\\?\\.mac\\?\\.version \\|\\| '(\\d+(?:\\.\\d+)*)'"
 d_type = "direct"
 d_url = "https://support.image-line.com/redirect/flstudio_mac_installer"

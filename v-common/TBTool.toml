@@ -9,7 +9,7 @@ platforms = ["windows"]
 [config]
 type = "html_selector"
 url = "https://www.tbtool.cn/download/index.html"
-v_position = { selector = ".download-meta strong", regex = "最新版本：(.*)" }
+v_position = { selector = ".download-meta strong", regex = "最新版本：(\\d+(?:\\.\\d+)*)" }
 
 [config.windows]
 d_position = { selector = "a.btn-lg[href*='.exe']", attr = "href" }

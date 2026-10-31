@@ -11,5 +11,5 @@ url = "https://www.mothersruin.com/software/Archaeology/get.html"
 baseurl = "https://www.mothersruin.com"
 
 [config.macos]
-v_position = { selector = "td.version", regex = "(\\d+\\.\\d+)" }
+v_position = { selector = "td.version", regex = "(\\d+(?:\\.\\d+)*)" }
 d_position = { selector = "a.download-link", attr = "href" }

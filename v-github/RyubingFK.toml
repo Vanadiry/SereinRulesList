@@ -16,4 +16,4 @@ type = "github"
 owner = "THZoria"
 repo = "NX_Firmware"
 allow_prerelease = true
-d_position = "zip"
+d_position = "\\.zip$"

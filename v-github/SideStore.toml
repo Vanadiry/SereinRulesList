@@ -11,4 +11,4 @@ owner = "SideStore"
 repo = "SideStore"
 
 [config.ios]
-d_position = "ipa"
+d_position = "\\.ipa$"

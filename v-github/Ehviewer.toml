@@ -11,4 +11,4 @@ owner = "xiaojieonly"
 repo = "Ehviewer_CN_SXJ"
 
 [config.android]
-d_position = "apk"
+d_position = "\\.apk$"

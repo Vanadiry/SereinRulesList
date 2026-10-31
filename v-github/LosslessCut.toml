@@ -11,10 +11,10 @@ owner = "mifi"
 repo = "lossless-cut"
 
 [config.macos]
-d_position = "mac-arm64.dmg"
+d_position = "mac-arm64\\.dmg$"
 
 [config.windows]
-d_position = "win-x64.7z"
+d_position = "win-x64\\.7z$"
 
 [config.linux]
-d_position = "AppImage"
+d_position = "\\.AppImage$"

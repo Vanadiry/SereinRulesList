@@ -11,10 +11,10 @@ owner = "jkcoxson"
 repo = "idevice_pair"
 
 [config.macos]
-d_position = "dmg"
+d_position = "\\.dmg$"
 
 [config.windows]
-d_position = "exe"
+d_position = "\\.exe$"
 
 [config.linux]
-d_position = "x86_64.AppImage$"
+d_position = "x86_64\\.AppImage$"

@@ -8,6 +8,6 @@ platforms = ["macos"]
 [config]
 type = "regex"
 url = "https://update.omnigroup.com/appcast/com.omnigroup.OmniDiskSweeper/"
-v_position = "<omniappcast:marketingVersion>([0-9.]+)</omniappcast:marketingVersion>"
+v_position = "<omniappcast:marketingVersion>(\\d+(?:\\.\\d+)*)</omniappcast:marketingVersion>"
 d_type = "direct"
 d_url = "https://www.omnigroup.com/download/latest/OmniDiskSweeper"

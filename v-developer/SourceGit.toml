@@ -17,4 +17,4 @@ d_position = "osx-arm64"
 d_position = "win-x64"
 
 [config.linux]
-d_position = "amd64.AppImage$"
+d_position = "amd64\\.AppImage$"

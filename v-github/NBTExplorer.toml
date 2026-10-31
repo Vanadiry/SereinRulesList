@@ -11,4 +11,4 @@ owner = "jaquadro"
 repo = "NBTExplorer"
 
 [config.windows]
-d_position = "zip"
+d_position = "\\.zip$"

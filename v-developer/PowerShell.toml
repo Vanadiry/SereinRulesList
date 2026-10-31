@@ -11,4 +11,4 @@ owner = "PowerShell"
 repo = "PowerShell"
 
 [config.windows]
-d_position = "x64.msi$"
+d_position = "x64\\.msi$"

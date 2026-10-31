@@ -8,7 +8,7 @@ platforms = ["macos", "windows"]
 [config]
 type = "regex"
 url = "https://downloads.cloudflareclient.com/v1/update/sparkle/macos/ga"
-v_position = "<title>Version ([0-9.]+)"
+v_position = "<title>Version (\\d+(?:\\.\\d+)*)"
 d_type = "direct"
 download_method = "downloader"
 

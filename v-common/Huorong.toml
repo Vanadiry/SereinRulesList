@@ -8,7 +8,7 @@ platforms = ["windows"]
 [config]
 type = "html_selector"
 url = "https://www.huorong.cn/"
-v_position = { selector = ".std_title6", regex = "火绒安全软件(\\d+\\.\\d+)" }
+v_position = { selector = ".std_title6", regex = "火绒安全软件(\\d+(?:\\.\\d+)*)" }
 
 [config.windows]
 d_position = { selector = "a[data-url*='x64UrlAll']", attr = "data-url" }

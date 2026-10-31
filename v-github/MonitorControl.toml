@@ -11,4 +11,4 @@ owner = "MonitorControl"
 repo = "MonitorControl"
 
 [config.macos]
-d_position = "dmg"
+d_position = "\\.dmg$"

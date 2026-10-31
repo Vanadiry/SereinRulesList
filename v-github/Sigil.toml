@@ -14,7 +14,7 @@ repo = "Sigil"
 d_position = "Mac-arm64"
 
 [config.windows]
-d_position = "exe"
+d_position = "\\.exe$"
 
 [config.linux]
 d_position = "AppImage$"

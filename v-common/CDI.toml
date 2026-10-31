@@ -12,5 +12,5 @@ ua = "curl/8.0.0"
 baseurl = "https://crystalmark.info"
 
 [config.windows]
-v_position = "CrystalDiskInfo (\\d+\\.\\d+\\.\\d+)"
+v_position = "CrystalDiskInfo (\\d+(?:\\.\\d+)*)"
 d_position = "href=\"(/redirect\\.php\\?product=CrystalDiskInfoInstaller)\""

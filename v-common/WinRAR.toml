@@ -11,5 +11,5 @@ baseurl = "https://www.win-rar.com"
 url = "https://www.win-rar.com/download.html?&L=7"
 
 [config.windows]
-v_position = { selector = "a[href$='sc.exe']", regex = "WinRAR ([\\d.]+)" }
+v_position = { selector = "a[href$='sc.exe']", regex = "WinRAR (\\d+(?:\\.\\d+)*)" }
 d_position = { selector = "a[href$='sc.exe']", attr = "href" }

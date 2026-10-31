@@ -11,8 +11,8 @@ url = "https://cyberduck.io/download/"
 
 [config.macos]
 d_position = { selector = "a[href*='zip']", attr = "href" }
-v_position = { selector = "a[href*='zip']", attr = "href" , regex = "Cyberduck-(.*).zip"}
+v_position = { selector = "a[href*='zip']", attr = "href" , regex = "Cyberduck-(.*)\\.zip"}
 
 [config.windows]
 d_position = { selector = "a[href*='exe']", attr = "href" }
-v_position = { selector = "a[href*='exe']", attr = "href", regex = "Installer-(.*).exe" }
+v_position = { selector = "a[href*='exe']", attr = "href", regex = "Installer-(.*)\\.exe" }

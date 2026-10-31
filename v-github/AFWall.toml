@@ -11,4 +11,4 @@ owner = "ukanth"
 repo = "afwall"
 
 [config.android]
-d_position = "Free.apk"
+d_position = "Free\\.apk$"

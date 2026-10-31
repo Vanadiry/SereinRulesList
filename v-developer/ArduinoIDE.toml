@@ -11,10 +11,10 @@ owner = "arduino"
 repo = "arduino-ide"
 
 [config.macos]
-d_position = "arm64.dmg"
+d_position = "arm64\\.dmg$"
 
 [config.windows]
-d_position = "exe"
+d_position = "\\.exe$"
 
 [config.linux]
-d_position = "AppImage"
+d_position = "\\.AppImage$"

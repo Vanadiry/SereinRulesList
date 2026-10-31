@@ -11,13 +11,13 @@ owner = "wanghongenpin"
 repo = "proxypin"
 
 [config.macos]
-d_position = "dmg"
+d_position = "\\.dmg$"
 
 [config.windows]
-d_position = "exe"
+d_position = "\\.exe$"
 
 [config.linux]
-d_position = "deb"
+d_position = "\\.deb$"
 
 [config.android]
-d_position = "android(-\\d[\\d.]*)?\\.apk$"
+d_position = "android(-\\d+(?:\\.\\d+)*)?\\.apk$"

@@ -7,14 +7,15 @@ platforms = ["windows", "macos"]
 
 [config]
 type = "regex"
+baseurl = "https:"
 
 [config.windows]
 url = "https://mediaarea.net/en/MediaInfo/Download/Windows"
-d_position = "href=\"(.*download.*mediainfo.*MediaInfo_GUI.*Windows.exe)\">v"
-v_position = "download.*mediainfo.*MediaInfo_GUI_(.*)_Windows.exe"
+d_position = "href=\"(.*download.*mediainfo.*MediaInfo_GUI.*Windows\\.exe)\">v"
+v_position = "download.*mediainfo.*MediaInfo_GUI_(\\d+(?:\\.\\d+)*)_Windows\\.exe"
 
 
 [config.macos]
 url = "https://mediaarea.net/en/MediaInfo/Download/Mac_OS"
 d_position = "href=\"(.*download.*mediainfo.*MediaInfo_CLI.*dmg)\">v"
-v_position = "download.*mediainfo/(.*)/MediaInfo_CLI"
+v_position = "download.*mediainfo/(\\d+(?:\\.\\d+)*)/MediaInfo_CLI"

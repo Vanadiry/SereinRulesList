@@ -11,4 +11,4 @@ owner = "jordanbaird"
 repo = "Ice"
 
 [config.macos]
-d_position = "zip"
+d_position = "\\.zip$"

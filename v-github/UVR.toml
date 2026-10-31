@@ -11,7 +11,7 @@ owner = "Anjok07"
 repo = "ultimatevocalremovergui"
 
 [config.windows]
-d_position = "UVR.*setup.exe"
+d_position = "UVR.*setup\\.exe$"
 
 [config.macos]
-d_position = "Ultimate_Vocal_Remover_v[0-9_]+_MacOS_arm64\\.dmg$"
+d_position = "Ultimate_Vocal_Remover_v[\\d_]+_MacOS_arm64\\.dmg$"

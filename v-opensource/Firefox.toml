@@ -10,7 +10,7 @@ type = "html_selector"
 ua = "curl/8.0.0"
 d_position = { selector = ".c-step-download a", attr = "href" }
 v_type = "regex"
-v_position = "data-latest-firefox=\"(.*)\""
+v_position = "data-latest-firefox=\"([^\"]+)\""
 download_method = "downloader"
 
 [config.macos]

@@ -11,4 +11,4 @@ owner = "iina"
 repo = "iina"
 
 [config.macos]
-d_position = "dmg"
+d_position = "\\.dmg$"

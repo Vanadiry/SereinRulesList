@@ -9,7 +9,7 @@ platforms = ["macos", "windows", "linux"]
 type = "html_selector"
 url = "https://www.wireshark.org/download.html"
 v_type = "regex"
-v_position = "Stable Release: (.*)<svg xm"
+v_position = "Stable Release: ([^<]+)<svg xm"
 ua = "curl/8.0.0"
 
 [config.macos]

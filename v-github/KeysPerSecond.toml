@@ -11,4 +11,4 @@ owner = "RoanH"
 repo = "KeysPerSecond"
 
 [config.windows]
-d_position = "exe"
+d_position = "\\.exe$"

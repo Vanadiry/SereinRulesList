@@ -5,18 +5,18 @@
     "description": "",
     "baseurl": "",
     "files": {
-        "7zip.toml": "921cb5f6fa4d",
-        "Firefox.toml": "cff79d2ddd42",
-        "FreeFileSync.toml": "4af4cd328d3b",
+        "7zip.toml": "2914a34ebb4b",
+        "Firefox.toml": "aed63b991be3",
+        "FreeFileSync.toml": "0c2b796bec2d",
         "FreeFileSync_Donation.toml": "e407bbf3e47c",
         "GIMP.toml": "5c14d6d691e6",
-        "GnuCash.toml": "da65c61019e1",
-        "HTTrack.toml": "3a56738788f6",
+        "GnuCash.toml": "74e07778dfb2",
+        "HTTrack.toml": "8ac9d2283961",
         "Krita.toml": "c6eea6e36f25",
-        "MediaInfo.toml": "b5babd609dfc",
+        "MediaInfo.toml": "b3ab3f6f19ab",
         "MKVToolNix.toml": "1207ffc3d81c",
-        "OpenEUICC.toml": "fe04335005be",
-        "Thunderbird.toml": "425f6b942a7e",
+        "OpenEUICC.toml": "663f7328dbe8",
+        "Thunderbird.toml": "a6f2dbc631c3",
         "VLC.toml": "bc34404511dd"
     }
 }

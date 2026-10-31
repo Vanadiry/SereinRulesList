@@ -11,4 +11,4 @@ owner = "tonsky"
 repo = "FiraCode"
 
 [config.font]
-d_position = "zip"
+d_position = "\\.zip$"

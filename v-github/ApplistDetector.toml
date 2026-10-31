@@ -11,4 +11,4 @@ owner = "Dr-TSNG"
 repo = "ApplistDetector"
 
 [config.android]
-d_position = "apk"
+d_position = "\\.apk$"

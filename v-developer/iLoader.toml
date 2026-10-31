@@ -11,10 +11,10 @@ owner = "nab138"
 repo = "iloader"
 
 [config.macos]
-d_position = "darwin-universal.dmg$"
+d_position = "darwin-universal\\.dmg$"
 
 [config.windows]
-d_position = "windows-x64.exe$"
+d_position = "windows-x64\\.exe$"
 
 [config.linux]
-d_position = "linux-amd64.AppImage$"
+d_position = "linux-amd64\\.AppImage$"

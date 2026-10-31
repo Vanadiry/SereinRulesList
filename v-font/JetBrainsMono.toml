@@ -11,4 +11,4 @@ owner = "JetBrains"
 repo = "JetBrainsMono"
 
 [config.font]
-d_position = "zip"
+d_position = "\\.zip$"

@@ -9,7 +9,7 @@ platforms = ["macos", "windows", "linux"]
 type = "regex"
 d_type = "html_selector"
 url = "https://www.thunderbird.net/zh-CN/thunderbird/all/"
-v_position = "defaultLatestVersion: '([\\d.]+)'"
+v_position = "defaultLatestVersion: '(\\d+(?:\\.\\d+)*)'"
 download_method = "downloader"
 
 [config.macos]

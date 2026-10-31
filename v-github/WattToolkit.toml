@@ -11,10 +11,10 @@ owner = "BeyondDimension"
 repo = "SteamTools"
 
 [config.macos]
-d_position = "dmg"
+d_position = "\\.dmg$"
 
 [config.windows]
-d_position = "exe"
+d_position = "\\.exe$"
 
 [config.linux]
 d_position = "linux"

@@ -12,6 +12,6 @@ ua = "curl/8.0.0"
 baseurl = "https://crystalmark.info"
 
 [config.windows]
-v_position = "CrystalDiskMark (\\d+\\.\\d+\\.\\d+)"
+v_position = "CrystalDiskMark (\\d+(?:\\.\\d+)*)"
 d_type = "html_selector"
 d_position = { selector = "a[title='CrystalDiskMark']", attr = "href" }

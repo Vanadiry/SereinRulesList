@@ -11,13 +11,13 @@ owner = "localsend"
 repo = "localsend"
 
 [config.macos]
-d_position = "dmg"
+d_position = "\\.dmg$"
 
 [config.windows]
-d_position = "^LocalSend-[\\d.]+-windows-x86-64\\.exe$"
+d_position = "^LocalSend-\\d+(?:\\.\\d+)*-windows-x86-64\\.exe$"
 
 [config.linux]
-d_position = "^LocalSend-[\\d.]+-linux-x86-64\\."
+d_position = "^LocalSend-\\d+(?:\\.\\d+)*-linux-x86-64\\."
 
 [config.android]
 d_position = "arm64v8"

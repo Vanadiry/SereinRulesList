@@ -9,5 +9,5 @@ platforms = ["windows"]
 [config]
 type = "regex"
 url = "https://www.52pojie.cn/thread-1374045-1-1.html"
-v_position = "<title>.*V(.*[0-9]{4})"
+v_position = "<title>.*V(.*\\d{4})"
 d_position = 'href="(http.*lanzou.*)" target='

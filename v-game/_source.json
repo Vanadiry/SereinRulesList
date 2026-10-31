@@ -5,8 +5,8 @@
     "description": "",
     "baseurl": "",
     "files": {
-        "HMCL.toml": "a4f99e5f9705",
-        "osu.toml": "78c44df89106",
-        "PrismLauncher.toml": "4ea26118a887"
+        "HMCL.toml": "0be8db801fa1",
+        "osu.toml": "7d48df3420f6",
+        "PrismLauncher.toml": "9267d22cdb25"
     }
 }

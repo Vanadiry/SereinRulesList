@@ -8,7 +8,7 @@ platforms = ["macos", "windows", "linux"]
 [config]
 type = "regex"
 url = "https://desktop.docker.com/mac/main/arm64/appcast.xml"
-v_position = "<title>Version ([0-9.]+)"
+v_position = "<title>Version (\\d+(?:\\.\\d+)*)"
 
 [config.macos]
 d_type = "direct"

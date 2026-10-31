@@ -11,4 +11,4 @@ owner = "stefankueng"
 repo = "grepWin"
 
 [config.windows]
-d_position = "x64.msi"
+d_position = "x64\\.msi$"

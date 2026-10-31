@@ -11,4 +11,4 @@ url = "https://gitea.angry.im/api/v1/repos/PeterCxy/OpenEUICC/releases"
 v_position = [0, "tag_name"]
 
 [config.android]
-d_position = [0, "assets", "name~.*\\.apk$", "browser_download_url"]
+d_position = [0, "assets", "name~\\.apk$", "browser_download_url"]

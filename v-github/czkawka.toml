@@ -15,7 +15,7 @@ download_method = "downloader"
 d_position = "mac_krokiet_skia_vulkan_heif_avif_arm64"
 
 [config.windows]
-d_position = "windows_krokiet_on_windows_skia_opengl.exe"
+d_position = "windows_krokiet_on_windows_skia_opengl\\.exe$"
 
 [config.linux]
 d_position = "linux_krokiet_skia_opengl_x86_64"

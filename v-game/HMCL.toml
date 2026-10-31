@@ -12,10 +12,10 @@ repo = "HMCL"
 per_page = 10
 
 [config.macos]
-d_position = "jar"
+d_position = "\\.jar$"
 
 [config.windows]
-d_position = "exe"
+d_position = "\\.exe$"
 
 [config.linux]
-d_position = "jar"
+d_position = "\\.jar$"

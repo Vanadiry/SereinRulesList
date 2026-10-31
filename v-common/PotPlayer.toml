@@ -8,7 +8,7 @@ platforms = ["windows"]
 [config]
 v_url = "https://t1.kakaocdn.net/potplayer/PotPlayer/v4/Update2/UpdateEng.html"
 v_type = "regex"
-v_position = "\\[([0-9]{6})\\]"
+v_position = "\\[(\\d{6})\\]"
 
 d_url = "https://potplayer.tv/"
 d_type = "html_selector"

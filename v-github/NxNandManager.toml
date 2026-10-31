@@ -11,4 +11,4 @@ owner = "eliboa"
 repo = "NxNandManager"
 
 [config.windows]
-d_position = "x64.zip"
+d_position = "x64\\.zip$"

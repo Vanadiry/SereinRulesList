@@ -12,5 +12,5 @@ ua = "curl/8.0.0"
 baseurl = "https://down.pcgeshi.com"
 
 [config.windows]
-v_position = { selector = ".info span", regex = "版本：(.+)" }
+v_position = { selector = ".info span", regex = "版本：(\\d+(?:\\.\\d+)*)" }
 d_position = { selector = ".btn a", attr = "data-download-path" }

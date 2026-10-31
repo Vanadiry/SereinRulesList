@@ -11,4 +11,4 @@ owner = "rime"
 repo = "squirrel"
 
 [config.macos]
-d_position = "pkg"
+d_position = "\\.pkg$"

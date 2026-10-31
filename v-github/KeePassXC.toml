@@ -11,10 +11,10 @@ owner = "keepassxreboot"
 repo = "keepassxc"
 
 [config.macos]
-d_position = "arm64.dmg$"
+d_position = "arm64\\.dmg$"
 
 [config.windows]
-d_position = "x64.msi$"
+d_position = "x64\\.msi$"
 
 [config.linux]
-d_position = "x86_64.AppImage$"
+d_position = "x86_64\\.AppImage$"

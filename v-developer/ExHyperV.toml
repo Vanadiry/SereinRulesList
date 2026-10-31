@@ -12,4 +12,4 @@ owner = "Justsenger"
 repo = "ExHyperV"
 
 [config.windows]
-d_position = "x64.exe$"
+d_position = "x64\\.exe$"

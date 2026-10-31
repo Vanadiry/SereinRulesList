@@ -11,13 +11,13 @@ owner = "obsidianmd"
 repo = "obsidian-releases"
 
 [config.macos]
-d_position = "dmg"
+d_position = "\\.dmg$"
 
 [config.windows]
-d_position = "exe"
+d_position = "\\.exe$"
 
 [config.linux]
-d_position = "Obsidian-[\\d.]+\\.AppImage$|amd64.deb"
+d_position = "Obsidian-\\d+(?:\\.\\d+)*\\.AppImage$|amd64\\.deb$"
 
 [config.android]
-d_position = "apk"
+d_position = "\\.apk$"

@@ -11,4 +11,4 @@ owner = "rime"
 repo = "weasel"
 
 [config.windows]
-d_position = "exe"
+d_position = "\\.exe$"

@@ -11,4 +11,4 @@ owner = "waydabber"
 repo = "BetterDisplay"
 
 [config.macos]
-d_position = "dmg"
+d_position = "\\.dmg$"

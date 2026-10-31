@@ -8,6 +8,6 @@ platforms = ["macos", "windows", "linux"]
 [config]
 type = "html_selector"
 url = "https://www.oracle.com/java/technologies/downloads/"
-v_position = { selector = "#java8 h2", regex = "Java SE Development Kit (8u[0-9]+)" }
+v_position = { selector = "#java8 h2", regex = "Java SE Development Kit (8u\\d+)" }
 d_type = "direct"
 d_url = "https://www.oracle.com/java/technologies/downloads/#java8"

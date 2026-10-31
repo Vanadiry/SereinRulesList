@@ -12,10 +12,10 @@ repo = "obs-studio"
 per_page = 10
 
 [config.macos]
-d_position = "macOS-Apple.dmg"
+d_position = "macOS-Apple\\.dmg$"
 
 [config.windows]
 d_position = "Windows.*x64.*Installer"
 
 [config.linux]
-d_position = "x86_64.deb"
+d_position = "x86_64\\.deb$"

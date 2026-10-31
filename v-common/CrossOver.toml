@@ -8,6 +8,6 @@ platforms = ["macos"]
 [config]
 type = "regex"
 url = "https://www.codeweavers.com/crossover/download-now"
-v_position = "\"dlVer\": \"([0-9.]+)\""
+v_position = "\"dlVer\": \"(\\d+(?:\\.\\d+)*)\""
 d_type = "direct"
 d_url = "https://media.codeweavers.com/pub/crossover/cxmac/demo/crossover-{version}.zip"

@@ -11,4 +11,4 @@ owner = "ip7z"
 repo = "7zip"
 
 [config.windows]
-d_position = "x64.exe"
+d_position = "x64\\.exe$"

@@ -10,7 +10,7 @@ type = "html_selector"
 url = "https://www.publicspace.net/ABetterFinderRename/download.html"
 baseurl = "https://www.publicspace.net"
 v_type = "regex"
-v_position = '"softwareVersion": "([0-9.]+)"'
+v_position = '"softwareVersion": "(\d+(?:\.\d+)*)"'
 
 [config.macos]
 d_position = { selector = "#download_button a", attr = "href" }

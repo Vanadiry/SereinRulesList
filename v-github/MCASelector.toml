@@ -11,10 +11,10 @@ owner = "Querz"
 repo = "mcaselector"
 
 [config.windows]
-d_position = "exe"
+d_position = "\\.exe$"
 
 [config.macos]
-d_position = "aarch64.dmg"
+d_position = "aarch64\\.dmg$"
 
 [config.linux]
-d_position = "x64.(deb|rpm)"
+d_position = "x64\\.(deb|rpm)$"

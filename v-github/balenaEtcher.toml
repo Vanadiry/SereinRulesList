@@ -11,10 +11,10 @@ owner = "balena-io"
 repo = "etcher"
 
 [config.windows]
-d_position = "Setup.exe"
+d_position = "Setup\\.exe$"
 
 [config.macos]
-d_position = "arm64.dmg"
+d_position = "arm64\\.dmg$"
 
 [config.linux]
-d_position = "balena.*(linux|rpm|deb)"
+d_position = "balena.*(linux|rpm|deb)$"

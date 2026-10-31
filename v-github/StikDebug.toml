@@ -11,4 +11,4 @@ owner = "StephenDev0"
 repo = "StikDebug"
 
 [config.ios]
-d_position = "ipa"
+d_position = "\\.ipa$"
