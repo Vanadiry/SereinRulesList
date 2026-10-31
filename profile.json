@@ -1,5 +1,5 @@
 {
-    "version": 5,
+    "version": 6,
     "known_extensions": [
         "exe",
         "zip",
@@ -12,7 +12,9 @@
         "deb",
         "rpm",
         "AppImage",
+        "flatpak",
         "tar.gz",
+        "tgz",
         "tar.xz",
         "txz",
         "tar.bz2",
