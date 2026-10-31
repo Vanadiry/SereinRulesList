@@ -14,7 +14,7 @@ repo = "PiliPlus"
 d_position = "\\.dmg$"
 
 [config.windows]
-d_position = "windows"
+d_position = "windows_.*setup\\.exe$"
 
 [config.linux]
 d_position = "\\.AppImage$"
