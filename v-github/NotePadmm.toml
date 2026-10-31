@@ -14,4 +14,4 @@ repo = "notepad--"
 d_position = "mac_arm64"
 
 [config.windows]
-d_position = "win.*portable"
+d_position = "win10-portable\\.zip$"

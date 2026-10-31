@@ -11,5 +11,4 @@ owner = "LiveContainer"
 repo = "LiveContainer"
 
 [config.ios]
-d_position = "ipa"
-
+d_position = "LiveContainer\\.ipa$"

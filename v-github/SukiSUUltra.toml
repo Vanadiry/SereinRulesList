@@ -11,4 +11,4 @@ owner = "SukiSU-Ultra"
 repo = "SukiSU-Ultra"
 
 [config.android]
-d_position = "apk"
+d_position = "release\\.apk$"
