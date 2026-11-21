@@ -9,6 +9,7 @@ platforms = ["macos"]
 type = "github"
 owner = "waydabber"
 repo = "BetterDisplay"
+per_page = 10
 
 [config.macos]
 d_position = "\\.dmg$"
