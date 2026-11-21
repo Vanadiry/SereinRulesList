@@ -5,6 +5,7 @@
     "description": "",
     "baseurl": "",
     "files": {
+        "Blender.toml": "fe28a358a93e",
         "OracleJDK26.toml": "318518798f44",
         "Ryubing.toml": "23177ca4b724"
     }
