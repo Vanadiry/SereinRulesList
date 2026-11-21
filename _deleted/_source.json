@@ -6,7 +6,8 @@
     "baseurl": "",
     "files": {
         "Blender.toml": "fe28a358a93e",
-        "OracleJDK26.toml": "318518798f44",
-        "Ryubing.toml": "23177ca4b724"
+        "OracleJDK26.toml": "cc9779a52c99",
+        "Ryubing.toml": "23177ca4b724",
+        "SukiSUUltra.toml": "ecd2d117d806"
     }
 }

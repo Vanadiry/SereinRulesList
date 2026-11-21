@@ -1,0 +1,14 @@
+[info]
+app_id = "SukiSUNova"
+name = "SukiSU Nova"
+description = "基于内核的 Root 方案"
+official_website = "https://github.com/SukiSU-Nova/SukiSU-Nova/releases"
+platforms = ["android"]
+
+[config]
+type = "github"
+owner = "SukiSU-Nova"
+repo = "SukiSU-Nova"
+
+[config.android]
+d_position = "arm64-v8a-release\\.apk$"

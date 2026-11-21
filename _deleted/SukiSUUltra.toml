@@ -4,6 +4,7 @@ name = "SukiSU Ultra"
 description = "基于内核的 Root 方案"
 official_website = "https://github.com/SukiSU-Ultra/SukiSU-Ultra/releases"
 platforms = ["android"]
+status = ["SukiSU Ultra 仓库迁移至 SukiSU Nova，它的 AppID 为 “SukiSUNova”，详情请了解官方储存库", "removed"]
 
 [config]
 type = "github"
